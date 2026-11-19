@@ -1,0 +1,456 @@
+zip,county,city,leads,leads_auto,leads_lm,leads_aug,leads_sep,leads_oct,leads_nov,homeowners,quoted,sold_households,items_sold,inbound_callers,inbound_calls
+91709,San Bernardino,Chino Hills,6,1,5,0,1,2,3,3,2,2,6,1,1
+92154,San Diego,San Diego,6,0,6,0,0,4,2,3,2,2,3,0,0
+92570,Riverside,Perris,4,0,4,0,1,2,1,2,2,2,2,0,0
+94601,Alameda,Oakland,3,2,1,0,2,0,1,2,2,1,2,1,1
+90044,Los Angeles,Los Angeles,12,6,6,0,4,5,3,0,1,1,1,1,1
+90011,Los Angeles,Los Angeles,10,6,4,1,1,6,2,1,1,1,5,0,0
+93550,Los Angeles,Palmdale,10,5,5,0,3,3,4,4,1,1,2,1,1
+90802,Los Angeles,Long Beach,8,4,4,1,2,3,2,1,1,1,2,0,0
+92545,Riverside,Hemet,8,3,5,0,3,4,1,4,1,1,1,0,0
+93304,Kern,Bakersfield,8,2,6,0,0,3,5,0,1,1,1,0,0
+90280,Los Angeles,South Gate,7,3,4,0,5,1,1,3,1,1,1,1,1
+90650,Los Angeles,Norwalk,6,2,4,0,1,2,3,4,1,1,2,0,0
+92509,Riverside,Riverside,6,2,4,0,2,4,0,3,1,1,3,1,1
+94544,Alameda,Hayward,5,0,5,0,1,2,2,1,1,1,1,0,0
+90037,Los Angeles,Los Angeles,4,3,1,0,1,3,0,0,1,1,1,1,1
+90715,Los Angeles,Lakewood,4,1,3,0,1,0,3,0,1,1,1,0,0
+90744,Los Angeles,Wilmington,4,4,0,0,3,1,0,1,1,1,2,0,0
+91731,Los Angeles,El Monte,4,1,3,0,0,3,1,2,1,1,1,0,0
+92841,Orange,Garden Grove,3,1,2,0,0,1,2,0,1,1,1,1,2
+90006,Los Angeles,Los Angeles,2,2,0,0,2,0,0,0,1,1,1,0,0
+90036,Los Angeles,Los Angeles,2,2,0,0,0,1,1,0,1,1,1,1,3
+90242,Los Angeles,Downey,2,2,0,0,1,0,1,0,1,1,1,0,0
+92054,San Diego,Oceanside,2,0,2,0,1,1,0,1,1,1,1,0,0
+92316,San Bernardino,Bloomington,2,0,2,0,1,0,1,2,1,1,1,0,0
+92620,Orange,Irvine,2,1,1,0,0,2,0,1,1,1,1,1,1
+94579,Alameda,San Leandro,2,0,2,0,0,1,1,0,1,1,1,0,0
+90008,Los Angeles,Los Angeles,1,1,0,0,1,0,0,1,1,1,1,0,0
+90020,Los Angeles,Los Angeles,1,1,0,1,0,0,0,0,1,1,1,0,0
+91506,Los Angeles,Burbank,1,1,0,1,0,0,0,0,1,1,2,0,0
+91935,San Diego,Jamul,1,0,1,0,0,1,0,1,1,1,1,0,0
+92021,San Diego,El Cajon,1,0,1,0,1,0,0,0,1,1,1,0,0
+92336,San Bernardino,Fontana,1,1,0,0,0,1,0,0,1,1,3,0,0
+95608,Sacramento,Carmichael,1,1,0,0,1,0,0,0,1,1,2,0,0
+93535,Los Angeles,Lancaster,4,4,0,0,2,2,0,0,1,0,0,1,1
+90303,Los Angeles,Inglewood,2,2,0,1,0,1,0,0,1,0,0,1,1
+90039,Los Angeles,Los Angeles,1,1,0,1,0,0,0,1,1,0,0,0,0
+95503,Humboldt,Eureka,1,1,0,0,1,0,0,1,1,0,0,1,1
+91342,Los Angeles,Sylmar,10,1,9,1,3,1,5,1,0,0,0,0,0
+90731,Los Angeles,San Pedro,9,5,4,0,4,3,2,1,0,0,0,1,1
+91766,Los Angeles,Pomona,9,3,6,0,4,2,3,0,0,0,0,0,0
+92804,Orange,Anaheim,9,4,5,0,1,3,5,2,0,0,0,0,0
+90047,Los Angeles,Los Angeles,8,6,2,0,4,3,1,3,0,0,0,0,0
+92407,San Bernardino,San Bernardino,8,4,4,0,1,5,2,2,0,0,0,0,0
+95110,Santa Clara,San Jose,8,0,8,0,0,3,5,0,0,0,0,0,0
+95337,San Joaquin,Manteca,8,1,7,0,4,3,1,2,0,0,0,1,1
+90640,Los Angeles,Montebello,7,2,5,1,1,1,4,1,0,0,0,1,1
+90706,Los Angeles,Bellflower,7,1,6,0,3,1,3,2,0,0,0,0,0
+90810,Los Angeles,Long Beach,7,2,5,0,1,2,4,1,0,0,0,0,0
+91340,Los Angeles,San Fernando,7,5,2,0,3,3,1,1,0,0,0,0,0
+91744,Los Angeles,La Puente,7,2,5,0,2,3,2,0,0,0,0,0,0
+91776,Los Angeles,San Gabriel,7,0,7,0,2,1,4,3,0,0,0,0,0
+91792,Los Angeles,West Covina,7,4,3,2,4,0,1,2,0,0,0,0,0
+90022,Los Angeles,Los Angeles,6,3,3,0,0,4,2,1,0,0,0,0,0
+90043,Los Angeles,Los Angeles,6,5,1,0,3,1,2,0,0,0,0,0,0
+90262,Los Angeles,Lynwood,6,3,3,0,1,1,4,0,0,0,0,1,1
+90804,Los Angeles,Long Beach,6,3,3,0,2,3,1,0,0,0,0,0,0
+91950,San Diego,National City,6,2,4,0,1,2,3,0,0,0,0,0,0
+92301,San Bernardino,Adelanto,6,1,5,1,0,2,3,1,0,0,0,0,0
+92553,Riverside,Moreno Valley,6,2,4,0,3,2,1,2,0,0,0,0,0
+92557,Riverside,Moreno Valley,6,1,5,0,4,2,0,2,0,0,0,0,0
+93703,Fresno,Fresno,6,2,4,0,3,1,2,1,0,0,0,0,0
+94565,Contra Costa,Pittsburg,6,3,3,1,2,1,2,1,0,0,0,1,1
+94603,Alameda,Oakland,6,3,3,0,0,4,2,2,0,0,0,0,0
+95307,Stanislaus,Ceres,6,1,5,0,0,2,4,0,0,0,0,0,0
+90059,Los Angeles,Los Angeles,5,3,2,0,1,2,2,2,0,0,0,0,0
+90061,Los Angeles,Los Angeles,5,1,4,0,2,0,3,1,0,0,0,0,0
+90221,Los Angeles,Compton,5,1,4,0,0,1,4,2,0,0,0,0,0
+91745,Los Angeles,Hacienda Heights,5,3,2,0,0,4,1,2,0,0,0,0,0
+91770,Los Angeles,Rosemead,5,1,4,0,1,3,1,0,0,0,0,0,0
+91977,San Diego,Spring Valley,5,1,4,0,2,2,1,1,0,0,0,0,0
+92129,San Diego,San Diego,5,1,4,0,3,2,0,2,0,0,0,1,2
+92395,San Bernardino,Victorville,5,1,4,0,2,0,3,2,0,0,0,0,0
+92405,San Bernardino,San Bernardino,5,0,5,0,2,1,2,3,0,0,0,0,0
+92551,Riverside,Moreno Valley,5,1,4,0,0,2,3,2,0,0,0,0,0
+92801,Orange,Anaheim,5,2,3,0,1,1,3,2,0,0,0,1,1
+93307,Kern,Bakersfield,5,0,5,0,2,2,1,2,0,0,0,0,0
+93722,Fresno,Fresno,5,1,4,0,0,4,1,1,0,0,0,0,0
+95112,Santa Clara,San Jose,5,0,5,0,2,2,1,1,0,0,0,0,0
+95116,Santa Clara,San Jose,5,0,5,0,1,2,2,1,0,0,0,0,0
+95351,Stanislaus,Modesto,5,0,5,0,3,1,1,2,0,0,0,0,0
+90002,Los Angeles,Los Angeles,4,2,2,0,3,0,1,1,0,0,0,0,0
+90003,Los Angeles,Los Angeles,4,1,3,0,1,1,2,0,0,0,0,0,0
+90046,Los Angeles,Los Angeles,4,4,0,0,2,1,1,0,0,0,0,0,0
+90260,Los Angeles,Lawndale,4,1,3,0,0,1,3,1,0,0,0,0,0
+90723,Los Angeles,Paramount,4,1,3,0,1,2,1,2,0,0,0,0,0
+90805,Los Angeles,Long Beach,4,3,1,1,2,0,1,0,0,0,0,0,0
+90813,Los Angeles,Long Beach,4,1,3,0,2,2,0,0,0,0,0,0,0
+91706,Los Angeles,Baldwin Park,4,1,3,0,2,1,1,4,0,0,0,0,0
+91746,Los Angeles,La Puente,4,3,1,0,0,4,0,1,0,0,0,0,0
+91765,Los Angeles,Diamond Bar,4,3,1,1,0,1,2,2,0,0,0,0,0
+91780,Los Angeles,Temple City,4,1,3,0,0,3,1,2,0,0,0,0,0
+92104,San Diego,San Diego,4,1,3,0,1,3,0,0,0,0,0,0,0
+92114,San Diego,San Diego,4,1,3,0,3,0,1,0,0,0,0,0,0
+92115,San Diego,San Diego,4,3,1,0,0,3,1,0,0,0,0,0,0
+92126,San Diego,San Diego,4,0,4,0,2,2,0,1,0,0,0,0,0
+92324,San Bernardino,Colton,4,0,4,0,3,0,1,1,0,0,0,0,0
+92404,San Bernardino,San Bernardino,4,1,3,0,3,1,0,0,0,0,0,0,0
+92505,Riverside,Riverside,4,2,2,0,2,1,1,1,0,0,0,0,0
+92703,Orange,Santa Ana,4,0,4,0,1,3,0,1,0,0,0,0,0
+92843,Orange,Garden Grove,4,0,4,0,1,2,1,1,0,0,0,0,0
+93305,Kern,Bakersfield,4,1,3,0,2,0,2,0,0,0,0,0,0
+93534,Los Angeles,Lancaster,4,4,0,1,2,1,0,0,0,0,0,0,0
+93618,Tulare,Dinuba,4,0,4,0,0,3,1,2,0,0,0,0,0
+94134,San Francisco,San Francisco,4,2,2,0,2,1,1,0,0,0,0,0,0
+94520,Contra Costa,Concord,4,0,4,0,1,2,1,1,0,0,0,0,0
+94589,Solano,Vallejo,4,0,4,0,0,3,1,1,0,0,0,0,0
+95051,Santa Clara,Santa Clara,4,1,3,0,1,2,1,0,0,0,0,0,0
+95123,Santa Clara,San Jose,4,0,4,0,2,1,1,1,0,0,0,0,0
+95301,Merced,Atwater,4,0,4,0,2,1,1,2,0,0,0,0,0
+95403,Sonoma,Santa Rosa,4,0,4,0,1,1,2,1,0,0,0,0,0
+90001,Los Angeles,Los Angeles,3,0,3,0,2,0,1,0,0,0,0,0,0
+90007,Los Angeles,Los Angeles,3,2,1,0,2,1,0,0,0,0,0,0,0
+90018,Los Angeles,Los Angeles,3,3,0,0,2,1,0,0,0,0,0,1,1
+90023,Los Angeles,Los Angeles,3,1,2,0,2,0,1,0,0,0,0,0,0
+90247,Los Angeles,Gardena,3,0,3,0,1,1,1,0,0,0,0,0,0
+90249,Los Angeles,Gardena,3,3,0,0,1,1,1,0,0,0,0,0,0
+90255,Los Angeles,Huntington Park,3,1,2,0,0,1,2,0,0,0,0,0,0
+90806,Los Angeles,Long Beach,3,2,1,0,2,0,1,1,0,0,0,0,0
+91042,Los Angeles,Tujunga,3,1,2,0,2,0,1,2,0,0,0,0,0
+91205,Los Angeles,Glendale,3,1,2,0,0,2,1,0,0,0,0,0,0
+91406,Los Angeles,Van Nuys,3,3,0,0,2,1,0,0,0,0,0,0,0
+91411,Los Angeles,Van Nuys,3,3,0,0,1,1,1,1,0,0,0,0,0
+91722,Los Angeles,Covina,3,1,2,0,1,1,1,1,0,0,0,0,0
+91763,San Bernardino,Montclair,3,0,3,0,1,0,2,0,0,0,0,0,0
+92020,San Diego,El Cajon,3,1,2,0,1,1,1,2,0,0,0,0,0
+92040,San Diego,Lakeside,3,0,3,0,0,1,2,2,0,0,0,0,0
+92105,San Diego,San Diego,3,0,3,0,0,2,1,1,0,0,0,0,0
+92111,San Diego,San Diego,3,0,3,0,0,3,0,1,0,0,0,0,0
+92284,San Bernardino,Yucca Valley,3,0,3,0,0,0,3,0,0,0,0,0,0
+92543,Riverside,Hemet,3,1,2,0,0,2,1,0,0,0,0,0,0
+92614,Orange,Irvine,3,0,3,0,2,1,0,0,0,0,0,0,0
+92618,Orange,Irvine,3,0,3,0,2,0,1,2,0,0,0,0,0
+92704,Orange,Santa Ana,3,0,3,0,0,1,2,1,0,0,0,0,0
+93309,Kern,Bakersfield,3,3,0,0,1,2,0,1,0,0,0,0,0
+93536,Los Angeles,Lancaster,3,3,0,0,2,1,0,0,0,0,0,0,0
+93631,Tulare,Kingsburg,3,0,3,0,0,2,1,1,0,0,0,0,0
+93701,Fresno,Fresno,3,0,3,0,1,1,1,0,0,0,0,0,0
+93702,Fresno,Fresno,3,1,2,0,0,1,2,1,0,0,0,0,0
+93728,Fresno,Fresno,3,0,3,0,1,1,1,2,0,0,0,0,0
+94531,Contra Costa,Antioch,3,0,3,0,2,0,1,2,0,0,0,0,0
+94538,Alameda,Fremont,3,2,1,0,0,2,1,1,0,0,0,0,0
+94559,Napa,Napa,3,1,2,0,2,0,1,0,0,0,0,0,0
+94587,Alameda,Union City,3,1,2,0,0,2,1,0,0,0,0,0,0
+94605,Alameda,Oakland,3,2,1,0,1,2,0,1,0,0,0,1,1
+94606,Alameda,Oakland,3,2,1,0,1,1,1,2,0,0,0,1,1
+94954,Sonoma,Petaluma,3,0,3,0,0,2,1,1,0,0,0,0,0
+95127,Santa Clara,San Jose,3,1,2,0,1,1,1,0,0,0,0,0,0
+95219,San Joaquin,Stockton,3,3,0,0,2,1,0,1,0,0,0,0,0
+95354,Stanislaus,Modesto,3,0,3,0,0,1,2,2,0,0,0,0,0
+95363,Stanislaus,Patterson,3,2,1,1,1,0,1,0,0,0,0,0,0
+95422,Lake,Clearlake,3,0,3,0,1,1,1,1,0,0,0,0,0
+95667,El Dorado,Placerville,3,1,2,0,2,0,1,1,0,0,0,0,0
+95815,Sacramento,Sacramento,3,2,1,0,1,1,1,1,0,0,0,0,0
+95901,Yuba,Marysville,3,0,3,0,0,1,2,0,0,0,0,0,0
+95961,Yuba,Olivehurst,3,0,3,0,1,0,2,2,0,0,0,0,0
+96150,El Dorado,South Lake Tahoe,3,1,2,0,2,1,0,1,0,0,0,0,0
+90004,Los Angeles,Los Angeles,2,2,0,0,1,1,0,0,0,0,0,0,0
+90013,Los Angeles,Los Angeles,2,2,0,1,0,1,0,0,0,0,0,1,1
+90019,Los Angeles,Los Angeles,2,2,0,0,1,1,0,0,0,0,0,0,0
+90026,Los Angeles,Los Angeles,2,2,0,0,0,2,0,0,0,0,0,0,0
+90028,Los Angeles,Los Angeles,2,2,0,0,0,2,0,0,0,0,0,0,0
+90033,Los Angeles,Los Angeles,2,2,0,0,2,0,0,0,0,0,0,0,0
+90062,Los Angeles,Los Angeles,2,0,2,0,0,1,1,1,0,0,0,0,0
+90201,Los Angeles,Bell Gardens,2,2,0,1,0,1,0,0,0,0,0,0,0
+90210,Los Angeles,Beverly Hills,2,2,0,0,0,1,1,0,0,0,0,0,0
+90220,Los Angeles,Compton,2,2,0,0,1,1,0,1,0,0,0,0,0
+90222,Los Angeles,Compton,2,1,1,0,1,0,1,1,0,0,0,0,0
+90250,Los Angeles,Hawthorne,2,2,0,0,0,2,0,0,0,0,0,0,0
+90305,Los Angeles,Inglewood,2,1,1,0,1,1,0,1,0,0,0,0,0
+90605,Los Angeles,Whittier,2,2,0,0,1,1,0,0,0,0,0,0,0
+90631,Orange,La Habra,2,2,0,0,0,2,0,0,0,0,0,0,0
+90638,Los Angeles,La Mirada,2,2,0,0,2,0,0,1,0,0,0,0,0
+91030,Los Angeles,South Pasadena,2,2,0,0,2,0,0,0,0,0,0,1,1
+91206,Los Angeles,Glendale,2,2,0,1,0,1,0,0,0,0,0,0,0
+91311,Los Angeles,Chatsworth,2,2,0,0,1,0,1,1,0,0,0,0,0
+91325,Los Angeles,Northridge,2,2,0,0,1,0,1,0,0,0,0,0,0
+91343,Los Angeles,North Hills,2,2,0,1,1,0,0,0,0,0,0,0,0
+91344,Los Angeles,Granada Hills,2,2,0,0,1,1,0,2,0,0,0,1,1
+91345,Los Angeles,Mission Hills,2,2,0,1,1,0,0,1,0,0,0,0,0
+91387,Los Angeles,Canyon Country,2,2,0,0,1,1,0,0,0,0,0,0,0
+91401,Los Angeles,Van Nuys,2,2,0,1,1,0,0,0,0,0,0,0,0
+91402,Los Angeles,Panorama City,2,2,0,0,1,1,0,0,0,0,0,0,0
+91405,Los Angeles,Van Nuys,2,2,0,0,0,2,0,1,0,0,0,0,0
+91504,Los Angeles,Burbank,2,2,0,0,1,1,0,0,0,0,0,0,0
+91605,Los Angeles,North Hollywood,2,2,0,0,1,1,0,0,0,0,0,0,0
+91606,Los Angeles,North Hollywood,2,2,0,0,1,1,0,0,0,0,0,0,0
+91702,Los Angeles,Azusa,2,2,0,0,1,1,0,0,0,0,0,0,0
+91708,San Bernardino,Chino,2,0,2,0,0,1,1,1,0,0,0,0,0
+91710,San Bernardino,Chino,2,2,0,0,2,0,0,0,0,0,0,0,0
+91732,Los Angeles,El Monte,2,1,1,0,1,1,0,0,0,0,0,0,0
+91748,Los Angeles,Rowland Heights,2,0,2,0,0,2,0,0,0,0,0,0,0
+91755,Los Angeles,Monterey Park,2,0,2,0,1,1,0,1,0,0,0,0,0
+91762,San Bernardino,Ontario,2,2,0,0,1,1,0,0,0,0,0,0,0
+91789,Los Angeles,Walnut,2,2,0,0,1,0,1,0,0,0,0,0,0
+91911,San Diego,Chula Vista,2,2,0,1,1,0,0,0,0,0,0,0,0
+91945,San Diego,Lemon Grove,2,1,1,0,2,0,0,0,0,0,0,0,0
+92019,San Diego,El Cajon,2,0,2,0,0,1,1,1,0,0,0,0,0
+92025,San Diego,Escondido,2,0,2,0,0,1,1,1,0,0,0,0,0
+92028,San Diego,Fallbrook,2,0,2,0,0,2,0,0,0,0,0,0,0
+92057,San Diego,Oceanside,2,0,2,0,1,1,0,0,0,0,0,0,0
+92102,San Diego,San Diego,2,0,2,0,2,0,0,0,0,0,0,0,0
+92109,San Diego,San Diego,2,0,2,0,0,2,0,0,0,0,0,0,0
+92113,San Diego,San Diego,2,1,1,0,0,1,1,0,0,0,0,0,0
+92117,San Diego,San Diego,2,0,2,0,1,0,1,0,0,0,0,0,0
+92124,San Diego,San Diego,2,0,2,0,0,0,2,0,0,0,0,0,0
+92220,Riverside,Banning,2,2,0,0,1,1,0,0,0,0,0,1,1
+92236,Riverside,Coachella,2,2,0,1,1,0,0,0,0,0,0,1,1
+92252,San Bernardino,Joshua Tree,2,0,2,0,0,1,1,1,0,0,0,0,0
+92307,San Bernardino,Apple Valley,2,0,2,0,1,1,0,2,0,0,0,0,0
+92311,San Bernardino,Barstow,2,2,0,0,1,1,0,2,0,0,0,0,0
+92376,San Bernardino,Rialto,2,2,0,0,2,0,0,1,0,0,0,1,2
+92394,San Bernardino,Victorville,2,0,2,0,0,0,2,1,0,0,0,0,0
+92410,San Bernardino,San Bernardino,2,1,1,0,0,0,2,0,0,0,0,0,0
+92503,Riverside,Riverside,2,1,1,0,1,1,0,2,0,0,0,0,0
+92530,Riverside,Lake Elsinore,2,1,1,0,0,2,0,0,0,0,0,0,0
+92544,Riverside,Hemet,2,0,2,0,0,1,1,1,0,0,0,0,0
+92555,Riverside,Moreno Valley,2,0,2,0,0,2,0,1,0,0,0,0,0
+92571,Riverside,Perris,2,0,2,0,1,0,1,1,0,0,0,0,0
+92583,Riverside,San Jacinto,2,0,2,0,0,0,2,1,0,0,0,0,0
+92630,Orange,Lake Forest,2,2,0,1,1,0,0,0,0,0,0,0,0
+92637,Orange,Laguna Woods,2,2,0,0,0,2,0,0,0,0,0,0,0
+92691,Orange,Mission Viejo,2,2,0,0,0,1,1,0,0,0,0,0,0
+92833,Orange,Fullerton,2,0,2,0,0,1,1,1,0,0,0,0,0
+93280,Kern,Wasco,2,0,2,0,0,1,1,1,0,0,0,0,0
+93505,Kern,California City,2,1,1,0,1,0,1,0,0,0,0,0,0
+93555,Kern,Ridgecrest,2,0,2,0,0,0,2,0,0,0,0,0,0
+93706,Fresno,Fresno,2,0,2,0,1,0,1,0,0,0,0,0,0
+93723,Fresno,Fresno,2,0,2,0,0,0,2,0,0,0,0,0,0
+93930,Monterey,King City,2,1,1,0,2,0,0,1,0,0,0,0,0
+94015,San Mateo,Daly City,2,0,2,0,0,1,1,0,0,0,0,0,0
+94114,San Francisco,San Francisco,2,2,0,0,1,1,0,1,0,0,0,0,0
+94124,San Francisco,San Francisco,2,1,1,1,0,1,0,0,0,0,0,0,0
+94509,Contra Costa,Antioch,2,0,2,0,0,1,1,1,0,0,0,0,0
+94541,Alameda,Hayward,2,1,1,0,1,0,1,1,0,0,0,0,0
+94545,Alameda,Hayward,2,0,2,0,2,0,0,0,0,0,0,0,0
+94577,Alameda,San Leandro,2,1,1,0,0,1,1,0,0,0,0,0,0
+94578,Alameda,San Leandro,2,0,2,0,1,1,0,0,0,0,0,0,0
+94609,Alameda,Oakland,2,1,1,0,0,0,2,0,0,0,0,0,0
+94621,Alameda,Oakland,2,0,2,0,0,1,1,1,0,0,0,0,0
+94903,Marin,San Rafael,2,0,2,0,0,1,1,0,0,0,0,0,0
+95020,Santa Clara,Gilroy,2,1,1,0,0,1,1,1,0,0,0,0,0
+95076,Santa Cruz,Watsonville,2,1,1,0,0,1,1,0,0,0,0,0,0
+95126,Santa Clara,San Jose,2,0,2,0,0,1,1,0,0,0,0,0,0
+95128,Santa Clara,San Jose,2,0,2,0,0,1,1,0,0,0,0,0,0
+95202,San Joaquin,Stockton,2,0,2,0,0,2,0,0,0,0,0,0,0
+95380,Stanislaus,Turlock,2,0,2,0,0,0,2,1,0,0,0,0,0
+95476,Sonoma,Sonoma,2,0,2,0,0,1,1,0,0,0,0,0,0
+95501,Humboldt,Eureka,2,1,1,0,0,1,1,0,0,0,0,0,0
+95624,Sacramento,Elk Grove,2,2,0,0,1,1,0,0,0,0,0,0,0
+95666,Amador,Pioneer,2,1,1,0,0,2,0,2,0,0,0,0,0
+95820,Sacramento,Sacramento,2,2,0,0,1,1,0,1,0,0,0,0,0
+95965,Butte,Oroville,2,1,1,0,0,1,1,2,0,0,0,0,0
+96021,Tehama,Corning,2,0,2,0,0,2,0,1,0,0,0,0,0
+21122,Outside California,Pasadena,1,1,0,0,0,1,0,0,0,0,0,0,0
+90017,Los Angeles,Los Angeles,1,1,0,0,0,1,0,0,0,0,0,0,0
+90025,Los Angeles,Los Angeles,1,1,0,0,0,1,0,0,0,0,0,0,0
+90032,Los Angeles,Los Angeles,1,1,0,0,0,1,0,0,0,0,0,0,0
+90056,Los Angeles,Los Angeles,1,1,0,0,0,1,0,0,0,0,0,0,0
+90057,Los Angeles,Los Angeles,1,1,0,0,0,1,0,0,0,0,0,0,0
+90058,Los Angeles,Los Angeles,1,1,0,0,0,1,0,0,0,0,0,0,0
+90064,Los Angeles,Los Angeles,1,1,0,0,0,1,0,0,0,0,0,0,0
+90065,Los Angeles,Los Angeles,1,1,0,0,0,1,0,0,0,0,0,0,0
+90066,Los Angeles,Los Angeles,1,1,0,0,0,1,0,0,0,0,0,1,2
+90068,Los Angeles,Los Angeles,1,1,0,0,1,0,0,0,0,0,0,0,0
+90240,Los Angeles,Downey,1,1,0,0,0,0,1,0,0,0,0,0,0
+90241,Los Angeles,Downey,1,1,0,0,1,0,0,0,0,0,0,0,0
+90277,Los Angeles,Redondo Beach,1,1,0,1,0,0,0,1,0,0,0,0,0
+90278,Los Angeles,Redondo Beach,1,1,0,0,0,1,0,0,0,0,0,0,0
+90292,Los Angeles,Marina Del Rey,1,1,0,0,1,0,0,0,0,0,0,0,0
+90301,Los Angeles,Inglewood,1,1,0,0,0,1,0,0,0,0,0,0,0
+90302,Los Angeles,Inglewood,1,1,0,0,1,0,0,0,0,0,0,0,0
+90502,Los Angeles,Torrance,1,1,0,0,1,0,0,0,0,0,0,0,0
+90602,Los Angeles,Whittier,1,1,0,0,1,0,0,0,0,0,0,0,0
+90606,Los Angeles,Whittier,1,1,0,0,0,1,0,0,0,0,0,0,0
+90623,Orange,La Palma,1,1,0,0,1,0,0,0,0,0,0,0,0
+90670,Los Angeles,Santa Fe Springs,1,1,0,0,0,0,1,0,0,0,0,1,1
+90703,Los Angeles,Cerritos,1,1,0,0,0,1,0,0,0,0,0,0,0
+90717,Los Angeles,Lomita,1,1,0,0,1,0,0,0,0,0,0,0,0
+90740,Orange,Seal Beach,1,1,0,0,1,0,0,0,0,0,0,0,0
+90745,Los Angeles,Carson,1,1,0,0,1,0,0,0,0,0,0,0,0
+90807,Los Angeles,Long Beach,1,1,0,0,1,0,0,0,0,0,0,0,0
+90808,Los Angeles,Long Beach,1,1,0,0,1,0,0,0,0,0,0,0,0
+90814,Los Angeles,Long Beach,1,1,0,0,0,1,0,0,0,0,0,0,0
+91001,Los Angeles,Altadena,1,1,0,0,1,0,0,1,0,0,0,0,0
+91006,Los Angeles,Arcadia,1,1,0,0,0,1,0,0,0,0,0,0,0
+91101,Los Angeles,Pasadena,1,1,0,0,0,1,0,0,0,0,0,0,0
+91103,Los Angeles,Pasadena,1,0,1,0,0,0,1,0,0,0,0,0,0
+91104,Los Angeles,Pasadena,1,0,1,0,0,0,1,0,0,0,0,0,0
+91203,Los Angeles,Glendale,1,1,0,0,0,1,0,0,0,0,0,0,0
+91208,Los Angeles,Glendale,1,1,0,0,1,0,0,1,0,0,0,0,0
+91306,Los Angeles,Winnetka,1,1,0,0,1,0,0,0,0,0,0,1,1
+91316,Los Angeles,Encino,1,1,0,0,1,0,0,0,0,0,0,0,0
+91326,Los Angeles,Porter Ranch,1,1,0,0,0,1,0,0,0,0,0,0,0
+91331,Los Angeles,Pacoima,1,1,0,0,0,1,0,1,0,0,0,0,0
+91335,Los Angeles,Reseda,1,1,0,0,1,0,0,0,0,0,0,0,0
+91352,Los Angeles,Sun Valley,1,1,0,0,1,0,0,1,0,0,0,0,0
+91354,Los Angeles,Valencia,1,1,0,0,1,0,0,1,0,0,0,0,0
+91367,Los Angeles,Woodland Hills,1,1,0,0,0,1,0,0,0,0,0,0,0
+91601,Los Angeles,North Hollywood,1,1,0,0,1,0,0,0,0,0,0,0,0
+91733,Los Angeles,South El Monte,1,0,1,0,0,0,1,1,0,0,0,0,0
+91739,San Bernardino,Rancho Cucamonga,1,1,0,0,1,0,0,0,0,0,0,0,0
+91752,Riverside,Mira Loma,1,1,0,0,1,0,0,1,0,0,0,0,0
+91754,Los Angeles,Monterey Park,1,0,1,0,0,1,0,0,0,0,0,0,0
+91773,Los Angeles,San Dimas,1,1,0,0,1,0,0,0,0,0,0,0,0
+91801,Los Angeles,Alhambra,1,1,0,0,0,1,0,0,0,0,0,0,0
+91803,Los Angeles,Alhambra,1,1,0,0,0,1,0,0,0,0,0,0,0
+91901,San Diego,Alpine,1,0,1,0,0,1,0,0,0,0,0,0,0
+91913,San Diego,Chula Vista,1,1,0,0,0,1,0,0,0,0,0,0,0
+92027,San Diego,Escondido,1,0,1,0,0,0,1,1,0,0,0,0,0
+92058,San Diego,Oceanside,1,0,1,0,0,1,0,0,0,0,0,0,0
+92071,San Diego,Santee,1,1,0,0,0,1,0,0,0,0,0,0,0
+92078,San Diego,San Marcos,1,1,0,0,0,1,0,0,0,0,0,0,0
+92082,San Diego,Valley Center,1,0,1,0,0,1,0,1,0,0,0,0,0
+92101,San Diego,San Diego,1,1,0,0,1,0,0,0,0,0,0,0,0
+92103,San Diego,San Diego,1,1,0,1,0,0,0,0,0,0,0,0,0
+92106,San Diego,San Diego,1,0,1,0,0,1,0,0,0,0,0,0,0
+92122,San Diego,San Diego,1,0,1,0,0,0,1,0,0,0,0,0,0
+92123,San Diego,San Diego,1,0,1,0,1,0,0,0,0,0,0,0,0
+92127,San Diego,San Diego,1,0,1,0,0,0,1,0,0,0,0,0,0
+92128,San Diego,San Diego,1,1,0,0,1,0,0,0,0,0,0,0,0
+92130,San Diego,San Diego,1,0,1,0,0,0,1,0,0,0,0,0,0
+92172,San Diego,San Diego,1,1,0,0,0,1,0,0,0,0,0,1,2
+92173,San Diego,San Ysidro,1,0,1,0,0,0,1,0,0,0,0,0,0
+92201,Riverside,Indio,1,1,0,0,1,0,0,0,0,0,0,0,0
+92231,Imperial,Calexico,1,1,0,0,1,0,0,0,0,0,0,0,0
+92240,Riverside,Desert Hot Springs,1,1,0,1,0,0,0,0,0,0,0,0,0
+92253,Riverside,La Quinta,1,1,0,0,0,1,0,0,0,0,0,0,0
+92254,Riverside,Mecca,1,0,1,0,0,0,1,1,0,0,0,0,0
+92262,Riverside,Palm Springs,1,1,0,0,1,0,0,0,0,0,0,0,0
+92277,San Bernardino,Twentynine Palms,1,0,1,0,0,1,0,0,0,0,0,0,0
+92308,San Bernardino,Apple Valley,1,1,0,0,0,1,0,0,0,0,0,0,0
+92342,San Bernardino,Helendale,1,0,1,0,0,1,0,1,0,0,0,0,0
+92346,San Bernardino,Highland,1,1,0,0,1,0,0,0,0,0,0,0,0
+92354,San Bernardino,Loma Linda,1,1,0,1,0,0,0,0,0,0,0,0,0
+92356,San Bernardino,Lucerne Valley,1,0,1,0,1,0,0,0,0,0,0,0,0
+92363,San Bernardino,Needles,1,1,0,0,0,1,0,0,0,0,0,0,0
+92399,San Bernardino,Yucaipa,1,1,0,0,1,0,0,1,0,0,0,0,0
+92408,San Bernardino,San Bernardino,1,0,1,0,1,0,0,0,0,0,0,0,0
+92411,San Bernardino,San Bernardino,1,0,1,0,0,0,1,0,0,0,0,0,0
+92504,Riverside,Riverside,1,1,0,0,1,0,0,0,0,0,0,0,0
+92507,Riverside,Riverside,1,1,0,0,1,0,0,0,0,0,0,0,0
+92532,Riverside,Lake Elsinore,1,1,0,0,0,1,0,0,0,0,0,0,0
+92536,Riverside,Aguanga,1,1,0,0,1,0,0,0,0,0,0,0,0
+92539,Riverside,Anza,1,0,1,0,1,0,0,0,0,0,0,0,0
+92606,Orange,Irvine,1,0,1,0,0,0,1,0,0,0,0,0,0
+92612,Orange,Irvine,1,0,1,0,1,0,0,1,0,0,0,0,0
+92655,Orange,Midway City,1,0,1,0,1,0,0,0,0,0,0,0,0
+92676,Orange,Silverado,1,1,0,0,1,0,0,0,0,0,0,0,0
+92688,Orange,Rancho Santa Margarita,1,1,0,0,0,1,0,1,0,0,0,0,0
+92705,Orange,Santa Ana,1,1,0,0,1,0,0,1,0,0,0,0,0
+92707,Orange,Santa Ana,1,1,0,0,1,0,0,1,0,0,0,0,0
+92807,Orange,Anaheim,1,1,0,0,1,0,0,1,0,0,0,0,0
+92840,Orange,Garden Grove,1,1,0,0,0,1,0,0,0,0,0,0,0
+92868,Orange,Orange,1,1,0,1,0,0,0,0,0,0,0,0,0
+92869,Orange,Orange,1,1,0,1,0,0,0,0,0,0,0,0,0
+92879,Riverside,Corona,1,1,0,0,0,1,0,0,0,0,0,0,0
+92880,Riverside,Corona,1,1,0,0,0,1,0,0,0,0,0,0,0
+92882,Riverside,Corona,1,1,0,0,1,0,0,0,0,0,0,0,0
+92883,Riverside,Corona,1,1,0,0,0,1,0,1,0,0,0,0,0
+93033,Ventura,Oxnard,1,1,0,0,1,0,0,0,0,0,0,0,0
+93101,Santa Barbara,Santa Barbara,1,0,1,0,1,0,0,0,0,0,0,0,0
+93105,Santa Barbara,Santa Barbara,1,1,0,0,1,0,0,0,0,0,0,0,0
+93215,Kern,Delano,1,0,1,0,1,0,0,0,0,0,0,0,0
+93221,Tulare,Exeter,1,1,0,0,0,1,0,1,0,0,0,0,0
+93240,Kern,Lake Isabella,1,1,0,0,0,1,0,0,0,0,0,0,0
+93241,Kern,Lamont,1,0,1,0,1,0,0,1,0,0,0,0,0
+93312,Kern,Bakersfield,1,1,0,0,1,0,0,1,0,0,0,0,0
+93402,San Luis Obispo,Los Osos,1,0,1,0,1,0,0,0,0,0,0,0,0
+93436,Santa Barbara,Lompoc,1,0,1,0,1,0,0,0,0,0,0,0,0
+93442,San Luis Obispo,Morro Bay,1,0,1,0,0,0,1,0,0,0,0,0,0
+93445,San Luis Obispo,Oceano,1,0,1,0,1,0,0,0,0,0,0,0,0
+93446,San Luis Obispo,Paso Robles,1,0,1,0,1,0,0,0,0,0,0,0,0
+93455,Santa Barbara,Santa Maria,1,0,1,0,0,0,1,1,0,0,0,0,0
+93543,Los Angeles,Littlerock,1,1,0,0,1,0,0,1,0,0,0,0,0
+93609,Fresno,Caruthers,1,0,1,0,0,0,1,1,0,0,0,0,0
+93625,Fresno,Fowler,1,0,1,0,0,0,1,0,0,0,0,0,0
+93637,Madera,Madera,1,0,1,0,0,0,1,0,0,0,0,0,0
+93638,Madera,Madera,1,1,0,0,0,1,0,0,0,0,0,0,0
+93648,Fresno,Parlier,1,0,1,0,0,0,1,0,0,0,0,0,0
+93657,Fresno,Sanger,1,0,1,0,1,0,0,0,0,0,0,0,0
+93662,Fresno,Selma,1,0,1,0,0,1,0,0,0,0,0,0,0
+93675,Fresno,Yokuts,1,1,0,0,1,0,0,0,0,0,0,0,0
+93711,Fresno,Fresno,1,1,0,0,1,0,0,0,0,0,0,0,0
+93725,Fresno,Fresno,1,0,1,0,0,0,1,1,0,0,0,0,0
+93901,Monterey,Salinas,1,0,1,0,0,1,0,0,0,0,0,0,0
+93905,Monterey,Salinas,1,1,0,0,0,1,0,0,0,0,0,0,0
+94040,Santa Clara,Mountain View,1,0,1,0,0,1,0,0,0,0,0,0,0
+94063,San Mateo,Redwood City,1,0,1,0,0,0,1,0,0,0,0,0,0
+94086,Santa Clara,Sunnyvale,1,0,1,0,1,0,0,1,0,0,0,0,0
+94108,San Francisco,San Francisco,1,1,0,0,0,1,0,0,0,0,0,0,0
+94110,San Francisco,San Francisco,1,1,0,0,0,1,0,0,0,0,0,0,0
+94121,San Francisco,San Francisco,1,1,0,1,0,0,0,0,0,0,0,0,0
+94303,Santa Clara,Palo Alto,1,0,1,0,0,0,1,0,0,0,0,0,0
+94533,Solano,Fairfield,1,1,0,0,1,0,0,0,0,0,0,0,0
+94534,Solano,Fairfield,1,1,0,0,1,0,0,0,0,0,0,0,0
+94539,Alameda,Fremont,1,1,0,0,0,1,0,0,0,0,0,0,0
+94542,Alameda,Hayward,1,1,0,0,0,1,0,0,0,0,0,0,0
+94568,Alameda,Dublin,1,1,0,0,1,0,0,0,0,0,0,0,0
+94572,Contra Costa,Rodeo,1,0,1,0,0,0,1,0,0,0,0,0,0
+94580,Alameda,San Lorenzo,1,0,1,0,0,1,0,1,0,0,0,0,0
+94590,Solano,Vallejo,1,0,1,0,0,1,0,0,0,0,0,0,0
+94591,Solano,Vallejo,1,1,0,0,1,0,0,0,0,0,0,0,0
+94803,Contra Costa,El Sobrante,1,0,1,0,0,1,0,0,0,0,0,0,0
+94804,Contra Costa,Richmond,1,1,0,0,0,0,1,0,0,0,0,0,0
+94904,Marin,Greenbrae,1,1,0,0,0,0,1,0,0,0,0,0,0
+94949,Marin,Novato,1,0,1,0,0,1,0,0,0,0,0,0,0
+95008,Santa Clara,Campbell,1,0,1,0,0,1,0,0,0,0,0,0,0
+95111,Santa Clara,San Jose,1,0,1,0,1,0,0,0,0,0,0,0,0
+95117,Santa Clara,San Jose,1,0,1,0,1,0,0,1,0,0,0,0,0
+95125,Santa Clara,San Jose,1,0,1,0,1,0,0,0,0,0,0,0,0
+95136,Santa Clara,San Jose,1,0,1,0,0,0,1,0,0,0,0,0,0
+95206,San Joaquin,Stockton,1,0,1,0,0,0,1,0,0,0,0,0,0
+95210,San Joaquin,Stockton,1,1,0,0,0,1,0,0,0,0,0,0,0
+95315,Merced,Delhi,1,0,1,0,1,0,0,1,0,0,0,0,0
+95336,San Joaquin,Manteca,1,1,0,1,0,0,0,0,0,0,0,0,0
+95350,Stanislaus,Modesto,1,1,0,0,1,0,0,1,0,0,0,0,0
+95379,Tuolumne,Tuolumne,1,0,1,0,0,1,0,1,0,0,0,0,0
+95382,Stanislaus,Turlock,1,1,0,1,0,0,0,0,0,0,0,0,0
+95391,Alameda,Tracy,1,1,0,1,0,0,0,0,0,0,0,0,0
+95401,Sonoma,Santa Rosa,1,0,1,0,0,1,0,1,0,0,0,0,0
+95407,Sonoma,Santa Rosa,1,0,1,0,1,0,0,0,0,0,0,0,0
+95461,Lake,Middletown,1,0,1,0,0,0,1,0,0,0,0,0,0
+95472,Sonoma,Sebastopol,1,0,1,0,1,0,0,0,0,0,0,0,0
+95519,Humboldt,Mckinleyville,1,0,1,0,0,0,1,0,0,0,0,0,0
+95602,Placer,Auburn,1,0,1,0,1,0,0,0,0,0,0,0,0
+95610,Sacramento,Citrus Heights,1,1,0,0,0,1,0,0,0,0,0,0,0
+95621,Sacramento,Citrus Heights,1,1,0,0,0,1,0,0,0,0,0,0,0
+95627,Yolo,Esparto,1,0,1,0,0,1,0,1,0,0,0,0,0
+95633,El Dorado,Garden Valley,1,1,0,0,1,0,0,1,0,0,0,0,0
+95634,El Dorado,Georgetown,1,0,1,0,0,0,1,1,0,0,0,0,0
+95661,Placer,Roseville,1,1,0,0,0,0,1,0,0,0,0,0,0
+95670,Sacramento,Rancho Cordova,1,1,0,0,0,1,0,0,0,0,0,0,0
+95684,El Dorado,Somerset,1,1,0,0,1,0,0,0,0,0,0,0,0
+95692,Yuba,Wheatland,1,1,0,0,0,1,0,0,0,0,0,0,0
+95747,Placer,Roseville,1,1,0,0,1,0,0,1,0,0,0,0,0
+95765,Placer,Rocklin,1,1,0,0,1,0,0,0,0,0,0,1,1
+95821,Sacramento,Sacramento,1,1,0,1,0,0,0,0,0,0,0,0,0
+95822,Sacramento,Sacramento,1,1,0,0,0,1,0,0,0,0,0,0,0
+95825,Sacramento,Sacramento,1,1,0,0,1,0,0,0,0,0,0,0,0
+95827,Sacramento,Sacramento,1,1,0,1,0,0,0,0,0,0,0,0,0
+95828,Sacramento,Sacramento,1,1,0,0,1,0,0,1,0,0,0,0,0
+95829,Sacramento,Sacramento,1,1,0,0,0,1,0,0,0,0,0,0,0
+95834,Sacramento,Sacramento,1,1,0,0,1,0,0,1,0,0,0,0,0
+95842,Sacramento,Sacramento,1,1,0,0,0,1,0,0,0,0,0,0,0
+95917,Butte,Biggs,1,0,1,0,0,0,1,0,0,0,0,0,0
+95926,Butte,Chico,1,0,1,0,0,1,0,0,0,0,0,0,0
+95945,Nevada,Grass Valley,1,0,1,0,0,1,0,0,0,0,0,0,0
+95949,Nevada,Grass Valley,1,0,1,0,0,0,1,0,0,0,0,0,0
+95966,Butte,Oroville,1,0,1,0,0,1,0,0,0,0,0,0,0
+96001,Shasta,Redding,1,1,0,1,0,0,0,0,0,0,0,0,0
+96003,Shasta,Redding,1,0,1,0,0,0,1,0,0,0,0,0,0
+96007,Shasta,Anderson,1,0,1,0,0,1,0,0,0,0,0,0,0
+96022,Tehama,Cottonwood,1,0,1,0,0,0,1,0,0,0,0,0,0
+96080,Tehama,Red Bluff,1,0,1,0,0,1,0,0,0,0,0,0,0
+96097,Siskiyou,Yreka,1,0,1,0,0,0,1,0,0,0,0,0,0

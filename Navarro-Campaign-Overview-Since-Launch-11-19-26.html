@@ -16,7 +16,7 @@ try{if(n===sys())localStorage.removeItem(k);else localStorage.setItem(k,n);}catc
 </script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="light dark">
-<title>Navarro Insurance Agency &middot; Campaign Overview &middot; Since Launch</title>
+<title>Navarro Insurance Agency · Campaign Overview · Since Launch</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
@@ -35,7 +35,7 @@ try{if(n===sys())localStorage.removeItem(k);else localStorage.setItem(k,n);}catc
   --brand:#057be5; --brand-text:#0569c4; --on-brand:#ffffff;
   --brand-tint:rgba(5,123,229,.08); --brand-tint-strong:rgba(5,123,229,.12); --brand-border:rgba(5,123,229,.3);
   --amber:#b45309; --amber-tint:rgba(180,83,9,.10); --success:#15803d;
-  --s1:#057be5; --s2:#0a3a6b; --s3:#b45309; --s4:#0f8f78; --s5:#64748b; --s6:#7c8ba1;
+  --s1:#057be5; --s2:#0a3a6b; --s3:#b45309; --s4:#0f8f78; --s5:#64748b; --s6:#7c3aed; --s7:#cbd5e1;
   --glow:rgba(5,123,229,.08); --grid:rgba(15,23,42,.035);
   --shadow-card:0 1px 2px 0 rgba(0,0,0,.05);
   --glow-brand:0 0 28px -8px rgba(5,123,229,.45);
@@ -48,7 +48,7 @@ try{if(n===sys())localStorage.removeItem(k);else localStorage.setItem(k,n);}catc
   --brand-text:#339fff;
   --brand-tint:rgba(5,123,229,.10); --brand-tint-strong:rgba(5,123,229,.15);
   --amber:#d97706; --amber-tint:rgba(217,119,6,.14); --success:#22c55e;
-  --s2:#9fd0ff; --s3:#d97706; --s4:#3beeca; --s5:#94a3b8;
+  --s2:#9fd0ff; --s3:#d97706; --s4:#3beeca; --s5:#94a3b8; --s6:#a78bfa; --s7:#475569;
   --glow:rgba(5,123,229,.13); --grid:rgba(148,163,184,.05);
   --shadow-card:0 25px 50px -12px rgba(0,0,0,.25);
   --glow-brand:0 0 28px -8px rgba(5,123,229,.55);
@@ -62,7 +62,7 @@ try{if(n===sys())localStorage.removeItem(k);else localStorage.setItem(k,n);}catc
     --brand-text:#339fff;
     --brand-tint:rgba(5,123,229,.10); --brand-tint-strong:rgba(5,123,229,.15);
     --amber:#d97706; --amber-tint:rgba(217,119,6,.14); --success:#22c55e;
-    --s2:#9fd0ff; --s3:#d97706; --s4:#3beeca; --s5:#94a3b8;
+    --s2:#9fd0ff; --s3:#d97706; --s4:#3beeca; --s5:#94a3b8; --s6:#a78bfa; --s7:#475569;
     --glow:rgba(5,123,229,.13); --grid:rgba(148,163,184,.05);
     --shadow-card:0 25px 50px -12px rgba(0,0,0,.25);
     --glow-brand:0 0 28px -8px rgba(5,123,229,.55);
@@ -210,7 +210,7 @@ body{margin:0;}
     --ground:#ffffff; --surface:#ffffff; --surface-raised:#ebf0f9;
     --border-subtle:#dbe2ec; --ink:#001020; --ink-soft:#334155; --ink-muted:#475569;
     --brand-text:#0569c4; --brand-tint:rgba(5,123,229,.08); --brand-tint-strong:rgba(5,123,229,.12);
-    --amber:#b45309; --amber-tint:rgba(180,83,9,.10); --s2:#0a3a6b; --s3:#b45309; --s4:#0f8f78; --s5:#64748b;
+    --amber:#b45309; --amber-tint:rgba(180,83,9,.10); --s2:#0a3a6b; --s3:#b45309; --s4:#0f8f78; --s5:#64748b; --s6:#7c3aed; --s7:#cbd5e1;
     --glow:transparent; --grid:transparent; --shadow-card:none; --glow-brand:none;
     --logo-light:block; --logo-dark:none;
   }
@@ -226,8 +226,6 @@ body{margin:0;}
 
 .side .back{display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:600;color:var(--brand-text);text-decoration:none;margin:-24px 0 28px;}
 .side .back:hover{text-decoration:underline;}
-.ltable .sub a{color:var(--brand-text);font-weight:600;text-decoration:none;}
-.ltable .sub a:hover{text-decoration:underline;}
 @media print{ .side .back{display:none;} }
 
 /* ---------- Theme toggle (shared across reports) ---------- */
@@ -242,6 +240,79 @@ body{margin:0;}
 :root[data-theme="dark"] .theme-toggle:hover{color:#339fff;border-color:#64748b;}
 :root[data-theme="dark"] .theme-toggle .i-sun{display:block;} :root[data-theme="dark"] .theme-toggle .i-moon{display:none;}
 @media print{ .theme-toggle{display:none !important;} }
+/* Where Quotes and Sales Came From (aid_section.py) */
+.atable{min-width:0;}
+.atable.wide{min-width:640px;}
+.atable th.r,.atable td.r{padding-right:20px;}
+.atable th.r:last-child,.atable td.r:last-child{padding-right:4px;}
+.atable td{padding:13px 0;}
+.atable .big{font-size:17px;}
+.atable td .sub.ts{max-width:300px;margin:4px 0 0 18px;}
+.atable td.r .sub.pk{max-width:none;font-size:12px;white-space:nowrap;}
+@media (max-width:560px){
+  .atable th{font-size:10px;letter-spacing:.04em;}
+  .atable th.r,.atable td.r{padding-right:7px;}
+  .atable td.r .sub.pk{font-size:11px;}
+  .atable .nm{gap:6px;}
+  .atable .big{font-size:15px;}
+  .atable .nm{font-size:13px;}
+  .atable .cc{font-size:14px;}
+  .atable td .sub.ts{margin-left:0;}
+  .atable td .nm .bd{display:none;}
+}
+.atable tr.tot td{border-top:1px solid var(--border-strong);border-bottom:none;}
+.atable tr.muted .nm,.atable tr.muted .big{color:var(--ink-muted);}
+.atable .aidn{font-variant-numeric:tabular-nums;white-space:nowrap;}
+.atable .cc{font-size:15px;font-weight:600;color:var(--ink-soft);font-variant-numeric:tabular-nums;}
+.anote{font-size:13px;color:var(--ink-muted);line-height:1.6;margin-top:16px;}
+.anote b{color:var(--ink);font-weight:600;}
+.astack{display:grid;gap:16px;}
+
+/* month table and related reports */
+.mtable{min-width:560px;}
+.atable th:first-child{padding-right:10px;}
+.mtable td{padding:12px 0;}
+.mtable .big{font-size:16px;}
+.mtable td.na .cc{color:var(--ink-muted);}
+.rel .pstep .h a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--brand-border);}
+.rel .pstep .h a:hover{color:var(--brand-text);}
+
+.atable{min-width:0;}
+.atable.wide{min-width:640px;}
+.atable th.r,.atable td.r{padding-right:20px;}
+.atable th.r:last-child,.atable td.r:last-child{padding-right:4px;}
+.atable td{padding:13px 0;}
+.atable .big{font-size:17px;}
+.atable td .sub.ts{max-width:300px;margin:4px 0 0 18px;}
+.atable td.r .sub.pk{max-width:none;font-size:12px;white-space:nowrap;}
+@media (max-width:560px){
+  .atable th{font-size:10px;letter-spacing:.04em;}
+  .atable th.r,.atable td.r{padding-right:7px;}
+  .atable td.r .sub.pk{font-size:11px;}
+  .atable .nm{gap:6px;}
+  .atable .big{font-size:15px;}
+  .atable .nm{font-size:13px;}
+  .atable .cc{font-size:14px;}
+  .atable td .sub.ts{margin-left:0;}
+  .atable td .nm .bd{display:none;}
+}
+.atable tr.tot td{border-top:1px solid var(--border-strong);border-bottom:none;}
+.atable tr.muted .nm,.atable tr.muted .big{color:var(--ink-muted);}
+.atable .aidn{font-variant-numeric:tabular-nums;white-space:nowrap;}
+.atable .cc{font-size:15px;font-weight:600;color:var(--ink-soft);font-variant-numeric:tabular-nums;}
+.anote{font-size:13px;color:var(--ink-muted);line-height:1.6;margin-top:16px;}
+.anote b{color:var(--ink);font-weight:600;}
+.astack{display:grid;gap:16px;}
+
+/* call-outs and the recommendation box */
+.gapcall{border:1px solid var(--brand-border);border-radius:12px;padding:16px 20px;margin-top:16px;background:linear-gradient(var(--brand-tint),var(--brand-tint)),var(--surface);font-size:14px;line-height:1.6;color:var(--ink);}
+.gapcall b{color:var(--brand-text);} .gapcall p{margin:0 0 8px;} .gapcall p:last-child{margin-bottom:0;}
+.askbox{border:2px solid var(--brand);border-radius:14px;padding:18px 22px;margin-top:16px;background:var(--surface);font-size:14px;line-height:1.6;color:var(--ink);}
+.askbox .ah{font-family:"Sora",system-ui,sans-serif;font-weight:700;font-size:15px;color:var(--brand-text);margin-bottom:8px;letter-spacing:.01em;}
+.askbox p{margin:0 0 8px;} .askbox ul{margin:0 0 10px;padding-left:20px;} .askbox li{margin:0 0 6px;}
+.askbox .am{font-size:13px;color:var(--ink-muted);margin:0;} .askbox b{color:var(--ink);}
+.wtable td{padding:10px 0;}
+.ltable td:first-child{padding-right:16px;}
 </style>
 </head>
 <body>
@@ -255,157 +326,118 @@ body{margin:0;}
     <div class="eb">Performance Review</div>
     <div class="rule"></div>
     <h1>Navarro Insurance Agency</h1>
-    <div class="who">Prepared for <b>Oscar Navarro</b><br>Whittier, CA &middot; GOAL account #1022<br>All campaigns &middot; Since launch, through Oct 15, 2026</div>
+    <div class="who">Prepared for <b>Oscar</b><br>Whittier, CA<br>All campaigns &middot; Since launch, Aug 21 through Nov 19, 2026</div>
     <nav aria-label="Report sections">
       <a href="#s1"><span class="ix">01</span>Key Metrics</a>
-      <a href="#s2"><span class="ix">02</span>Performance by Month</a>
-      <a href="#s3"><span class="ix">03</span>Performance by Campaign</a>
-      <a href="#s4"><span class="ix">04</span>Conversion Funnel</a>
-      <a href="#s5"><span class="ix">05</span>Recommendations</a>
+      <a href="#s2"><span class="ix">02</span>Performance by Campaign</a>
+      <a href="#s3"><span class="ix">03</span>Conversion Funnel</a>
+      <a href="#s4"><span class="ix">04</span>Monthly Trend</a>
+      <a href="#s5"><span class="ix">05</span>Where Sales Came From</a>
+      <a href="#s6"><span class="ix">06</span>Recommendations</a>
+      <a href="#s7"><span class="ix">07</span>Related Reports</a>
     </nav>
-    <div class="foot">GOAL Performance Marketing<br>Prepared by Alex Roy<br>All conversion metrics calculated based on Leads, not Clicks.</div>
+    <div class="foot">GOAL Performance Marketing<br>All conversion metrics calculated based on Leads, not Clicks.</div>
   </aside>
 
   <main class="main">
 
     <div class="strip">
-      <div class="f"><span class="l">Reporting period</span><span class="v">Since launch, Aug 21 to Oct 15, 2026</span></div>
+      <div class="f"><span class="l">Reporting period</span><span class="v">Since launch, Aug 21 through Nov 19, 2026</span></div>
       <div class="f"><span class="l">Lines</span><span class="v">Auto</span></div>
       <div class="f"><span class="l">Lead source</span><span class="v">GOAL ad campaign and lead marketplace</span></div>
       <span class="badge">All campaigns</span>
     </div>
 
     <section class="block" id="s1">
-      <div class="bhead"><span class="ix">01</span><div><h2>Key Metrics</h2><p>Aug 21 to Oct 15, 2026</p></div></div>
+      <div class="bhead"><span class="ix">01</span><div><h2>Key Metrics</h2><p>Since launch, Aug 21 through Nov 19, 2026</p></div></div>
       <div class="kgrid">
-        <div class="kc"><div class="v">577</div><div class="k">Leads</div><div class="d">Auto 341 &middot; Auto (LM) 236</div></div>
-        <div class="kc"><div class="v">&ndash;</div><div class="k">Contact Rate</div><div class="d">No Contacted event set up yet</div></div>
-        <div class="kc"><div class="v">4.0%</div><div class="k">Quote Rate</div><div class="d">23 of 577 leads &middot; a minimum, see funnel note</div></div>
-        <div class="kc hl"><div class="v">$282.10</div><div class="k">CPA</div><div class="d">Cost per policy &middot; 21 bound</div></div>
-        <div class="kc"><div class="v">21</div><div class="k">Policies Bound</div><div class="d">Includes 2 multi-policy sales</div></div>
-        <div class="kc"><div class="v">26</div><div class="k">Inbound Calls</div><div class="d">Direct from prospects</div></div>
+        <div class="kc"><div class="v">1,071</div><div class="k">Leads</div><div class="d">Auto 465 &middot; Auto (LM) 606 &middot; $9,907 spend</div></div>
+        <div class="kc hl"><div class="v">$275</div><div class="k">CPA</div><div class="d">$9,907.25 &divide; 36 households sold &middot; both campaigns</div></div>
+        <div class="kc"><div class="v">36</div><div class="k">Households Sold</div><div class="d">Auto 22 &middot; Auto (LM) 14 &middot; 56 items &middot; $38,690 premium</div></div>
+        <div class="kc"><div class="v">$177</div><div class="k">Cost per Item</div><div class="d">$9,907.25 &divide; 56 items &middot; 12 households with two or more</div></div>
+        <div class="kc"><div class="v">3.8%</div><div class="k">Quote Rate</div><div class="d">41 of 1,071 leads quoted &middot; a minimum, see How to read &middot; $242 per quote</div></div>
+        <div class="kc"><div class="v">39</div><div class="k">Inbound Calls</div><div class="d">Direct from prospects, all on Auto &middot; 34 callers &middot; 8 households sold</div></div>
       </div>
+<div class="askbox"><div class="ah">What we need from you</div><p>Thank you for the Nov 19 Agency Zoom report. It lists 47 bound policy rows with Items and Premium, so this report now shows items sold, premium and cost per item, and it adds 15 households sold since the Oct 15 file. 34 of its rows carry a phone number, and every one matches a GOAL lead.</p><ul><li><b>Send the next report with a phone number on every row.</b> 13 rows in the Nov 19 report have no phone number, so they could not be matched to a GOAL lead and are not counted yet: George E., Manuel A., David M., Katonya M., Thom V., Dorian G., Raul B., Aubrina M., Manoochehr F., Paulo G., Jose M., Judy G., Pamandeep S. They carry 19 items and $13,515 in premium. If they came from GOAL leads, the phone number each customer used on the quote form lets us add them.</li><li><b>Send a lead list with Contacted and Quoted status.</b> The files so far list sold customers and two open quotes. A list of every GOAL lead with its current status gives this report a contact rate and a full quote rate.</li><li><b>Add an Assigned To column.</b> It lets this report show results by producer.</li><li><b>Update marketplace statuses as you work them.</b> 592 of the 606 marketplace records still show Received - not worked yet in GOAL; the other 14 are the marketplace sales.</li></ul><p class="am">36 households bought since launch: 22 on Auto and 14 on Auto (LM), with 56 items, and $38,690 in premium on the 34 households the Nov 19 report lists. GOAL&#39;s Sold events count 22, the same 22 Auto households. GOAL records events on the Auto campaign only, so the 14 marketplace sales are counted from your files.</p></div>
+      <div class="gapcall"><p><b>How to read this report.</b> Quotes and sales come from your three status files (Sep 24, Oct 15 and Nov 19, 2026: two GOAL prospect exports and the Agency Zoom report), matched to GOAL leads by phone, plus the statuses set on leads in GOAL. They show 41 quoted leads: 38 in your files (the 36 households sold and 2 open quotes), plus 3 set to Quoted with Contact in GOAL only. <b>The quote rate is a minimum.</b> Your files list sold customers and a few quotes, so most quotes are recorded once a policy is written; the Inbound Call Review shows 16 callers given a price on the phone, and 9 of them are not marked quoted yet. CPA is spend divided by households sold. Cost per item is spend divided by items sold. Items and premium come from the Nov 19 Agency Zoom report: each household counts the sum of Items and Premium over its rows, and the report counts once although it was uploaded more than once. 2 households sold in the Oct 15 file are not on the Nov 19 report; they keep the items on the Oct 15 file (3 in all) and have no premium on file. That makes 56 items, and $38,690 in premium on 34 households. 12 of the 36 households have two or more items.</p><p>The account launched Aug 21 and the first lead arrived Aug 25, so this report covers about twelve weeks of leads. August covers Aug 21 to 31 and November covers Nov 1 to 19; both are partial months. Leads from the last weeks have had little time to quote and close, so CPA here is an early read. The Auto campaign&#39;s most recent lead arrived Nov 11; Auto (LM) leads run through Nov 19.</p><p>Auto is the GOAL quote-funnel ad campaign. Auto (LM) leads come from the GOAL lead marketplace, so they have no ad impressions, clicks or inbound calls, and GOAL events are not recorded for them. There is no Contacted event on this account and no contact status in your files, so this report has no contact rate.</p><p>GOAL counts 465 Auto leads. The prospect list has 467 Auto records, because two repeat submissions made in the same second are counted once, as GOAL counts them. 12 phone numbers are on both a marketplace record and an Auto record; none of them has a quote or a sale. Each sale counts once, on the household&#39;s earliest GOAL lead. The 13 rows in the Nov 19 report with no phone number match no GOAL lead by name either, so they are not counted (above). GOAL&#39;s own events show 24 quoted, 22 sold and 43 items on Auto, with $27,855 in sold premium. The 22 sold are the 22 Auto households here. GOAL keeps one row for each phone number in an upload, so its item and premium totals differ from the 41 items and $25,563 here, which add up each household&#39;s own rows. No status file has a Producer or Assigned To column, so results by producer are not available yet.</p></div>
     </section>
 
     <section class="block" id="s2">
-      <div class="bhead"><span class="ix">02</span><div><h2>Performance by Month</h2><p>Aug 21 to Oct 15, 2026</p></div></div>
+      <div class="bhead"><span class="ix">02</span><div><h2>Performance by Campaign</h2><p>Since launch, Aug 21 through Nov 19, 2026</p></div></div>
       <div class="split">
         <div class="panel">
           <div class="pt">Lead Mix</div>
           <div class="donut-wrap">
             <div class="donut">
-              <svg viewBox="0 0 42 42" width="180" height="180" role="img" aria-label="Leads by month: Aug 21 to 31 39, September 343, Oct 1 to 15 195">
+              <svg viewBox="0 0 42 42" width="180" height="180" role="img" aria-label="Lead mix by campaign: Auto 465, Auto (LM) 606">
                 <circle class="track" cx="21" cy="21" r="15.915" fill="none" stroke-width="6"></circle>
-                <circle class="seg" cx="21" cy="21" r="15.915" fill="none" stroke="var(--s1)" stroke-width="6" stroke-dasharray="0 100" data-dash="6.8" transform="rotate(-90 21 21)"></circle>
-                <circle class="seg" cx="21" cy="21" r="15.915" fill="none" stroke="var(--s2)" stroke-width="6" stroke-dasharray="0 100" data-dash="59.4" data-offset="6.8" transform="rotate(-90 21 21)"></circle>
-                <circle class="seg" cx="21" cy="21" r="15.915" fill="none" stroke="var(--s3)" stroke-width="6" stroke-dasharray="0 100" data-dash="33.8" data-offset="66.2" transform="rotate(-90 21 21)"></circle>
+                <circle class="seg" cx="21" cy="21" r="15.915" fill="none" stroke="var(--s1)" stroke-width="6" stroke-dasharray="0 100" data-dash="43.4" transform="rotate(-90 21 21)"></circle>
+                <circle class="seg" cx="21" cy="21" r="15.915" fill="none" stroke="var(--s2)" stroke-width="6" stroke-dasharray="0 100" data-dash="56.6" data-offset="43.4" transform="rotate(-90 21 21)"></circle>
               </svg>
-              <div class="center"><div class="n">577</div><div class="l">leads</div></div>
+              <div class="center"><div class="n">1,071</div><div class="l">leads</div></div>
             </div>
             <div class="legend">
-              <div class="li"><span class="sw" style="background:var(--s1)"></span><span class="nm">Aug 21&ndash;31</span><span class="vl">39</span></div>
-              <div class="li"><span class="sw" style="background:var(--s2)"></span><span class="nm">September</span><span class="vl">343</span></div>
-              <div class="li"><span class="sw" style="background:var(--s3)"></span><span class="nm">Oct 1&ndash;15</span><span class="vl">195</span></div>
+              <div class="li"><span class="sw" style="background:var(--s1)"></span><span class="nm">Auto</span><span class="vl">465</span></div>
+              <div class="li"><span class="sw" style="background:var(--s2)"></span><span class="nm">Auto (LM)</span><span class="vl">606</span></div>
             </div>
           </div>
         </div>
         <div class="panel tscroll">
-          <table class="ltable">
-            <thead><tr><th>Month</th><th class="r">Leads</th><th class="r">Calls</th><th>Notes</th></tr></thead>
-            <tbody>
-              <tr>
-                <td><div class="nm"><span class="bd" style="background:var(--s1)"></span>Aug 21&ndash;31</div><span class="tag neutral">Partial month</span></td>
-                <td class="r"><span class="big">39</span></td>
-                <td class="r"><span class="big">3</span></td>
-                <td><div class="sub">Auto only, first 11 days after launch. 6 quoted (15.4%), 4 bound. Spend $522.</div></td>
-              </tr>
-              <tr>
-                <td><div class="nm"><span class="bd" style="background:var(--s2)"></span>September</div><span class="tag blue">Peak</span></td>
-                <td class="r"><span class="big">343</span></td>
-                <td class="r"><span class="big">16</span></td>
-                <td><div class="sub">Auto 195, Auto (LM) 148. 13 quoted (3.8%), 13 bound. Spend $3,464.</div></td>
-              </tr>
-              <tr>
-                <td><div class="nm"><span class="bd" style="background:var(--s3)"></span>Oct 1&ndash;15</div><span class="tag neutral">In progress</span></td>
-                <td class="r"><span class="big">195</span></td>
-                <td class="r"><span class="big">7</span></td>
-                <td><div class="sub">Auto 107, Auto (LM) 88. 4 quoted (2.1%), 4 bound. Spend $1,938.</div></td>
-              </tr>
-            </tbody>
-          </table>
-          <div class="sub" style="max-width:none;margin-top:14px">September was the first full month and the first with Auto (LM) leads: 343 leads on $3,464 of spend. Quotes and policies are counted in the month each lead arrived, from the conversion files uploaded Sep 24 and Oct 15.</div>
+          <table class="ltable"><thead><tr><th>Campaign</th><th class="r">Leads</th><th class="r">Spend</th><th>Notes</th></tr></thead><tbody><tr><td><div class="nm"><span class="bd" style="background:var(--s1)"></span>Auto</div><span class="tag blue">22 sales</span></td><td class="r"><span class="big">465</span></td><td class="r"><span class="big">$5,996</span></td><td><div class="sub">43% of leads. 27 quoted (5.8%), 41 items, $25,563 premium. CPA $273, cost per item $146, cost per quote $222. 39 inbound calls. Most recent lead Nov 11. <a href="Navarro-Auto-Campaign-Performance-Since-Launch-11-19-26.html" style="color:var(--brand-text);font-weight:600">Auto report</a></div></td></tr><tr><td><div class="nm"><span class="bd" style="background:var(--s2)"></span>Auto (LM)</div><span class="tag blue">14 sales</span></td><td class="r"><span class="big">606</span></td><td class="r"><span class="big">$3,911</span></td><td><div class="sub">57% of leads, first leads Sep 1. 14 quoted (2.3%), 15 items, $13,127 premium. CPA $279, cost per item $261. Lead marketplace: no impressions, clicks or inbound calls. <a href="Navarro-Auto-LM-Campaign-Performance-Since-Launch-11-19-26.html" style="color:var(--brand-text);font-weight:600">Marketplace report</a></div></td></tr></tbody></table>
+          <div class="sub" style="max-width:none;margin-top:14px">Auto is the GOAL quote-funnel ad campaign. Auto (LM) leads come from the GOAL lead marketplace. The two are reported side by side and each has its own page. Every recorded marketplace quote is a sale, and 22 of the 27 Auto quotes are sales, so both quote rates are minimums. The total CPA of $275 uses the spend of both campaigns, $9,907.25.</div>
         </div>
       </div>
     </section>
 
     <section class="block" id="s3">
-      <div class="bhead"><span class="ix">03</span><div><h2>Performance by Campaign</h2><p>Aug 21 to Oct 15, 2026</p></div></div>
-      <div class="split">
-        <div class="panel">
-          <div class="pt">Lead Mix</div>
-          <div class="donut-wrap">
-            <div class="donut">
-              <svg viewBox="0 0 42 42" width="180" height="180" role="img" aria-label="Leads by campaign: Auto 341, Auto (LM) 236">
-                <circle class="track" cx="21" cy="21" r="15.915" fill="none" stroke-width="6"></circle>
-                <circle class="seg" cx="21" cy="21" r="15.915" fill="none" stroke="var(--s1)" stroke-width="6" stroke-dasharray="0 100" data-dash="59.1" transform="rotate(-90 21 21)"></circle>
-                <circle class="seg" cx="21" cy="21" r="15.915" fill="none" stroke="var(--s2)" stroke-width="6" stroke-dasharray="0 100" data-dash="40.9" data-offset="59.1" transform="rotate(-90 21 21)"></circle>
-              </svg>
-              <div class="center"><div class="n">577</div><div class="l">leads</div></div>
-            </div>
-            <div class="legend">
-              <div class="li"><span class="sw" style="background:var(--s1)"></span><span class="nm">Auto</span><span class="vl">341</span></div>
-              <div class="li"><span class="sw" style="background:var(--s2)"></span><span class="nm">Auto (LM)</span><span class="vl">236</span></div>
-            </div>
-          </div>
-        </div>
-        <div class="panel tscroll">
-          <table class="ltable">
-            <thead><tr><th>Campaign</th><th class="r">Leads</th><th class="r">Calls</th><th>Notes</th></tr></thead>
-            <tbody>
-              <tr>
-                <td><div class="nm"><span class="bd" style="background:var(--s1)"></span>Auto</div><span class="tag blue">Primary</span></td>
-                <td class="r"><span class="big">341</span></td>
-                <td class="r"><span class="big">26</span></td>
-                <td><div class="sub">59% of leads. 15 quoted (4.4%), 13 bound. CPA $329 on $4,279. <a href="Navarro-Auto-Campaign-Performance-Since-Launch-10-15-26.html">Campaign report &rarr;</a></div></td>
-              </tr>
-              <tr>
-                <td><div class="nm"><span class="bd" style="background:var(--s2)"></span>Auto (LM)</div><span class="tag neutral">Active</span></td>
-                <td class="r"><span class="big">236</span></td>
-                <td class="r"><span class="big">0</span></td>
-                <td><div class="sub">41% of leads, first leads in September. 8 quoted (3.4%), 8 bound. CPA $206 on $1,645. <a href="Navarro-Auto-LM-Campaign-Performance-Since-Launch-10-15-26.html">Campaign report &rarr;</a></div></td>
-              </tr>
-            </tbody>
-          </table>
-          <div class="sub" style="max-width:none;margin-top:14px">Auto is the GOAL quote-funnel ad campaign. Auto (LM) leads come from the GOAL lead marketplace at a set price, so they have no ad impressions, clicks, or inbound calls.</div>
-        </div>
-      </div>
+      <div class="bhead"><span class="ix">03</span><div><h2>Conversion Funnel</h2><p>Since launch, Aug 21 through Nov 19, 2026</p></div></div>
+      <div class="fpanel"><div class="fstep"><div class="lab">Leads<small>submitted</small></div><div class="fbar"><i class="pre" data-w="100" style="min-width:64px">1,071</i></div><div class="pct"><b>100%</b><span>both campaigns</span></div></div><div class="fdiv">Conversion funnel &middot; rates based on Leads</div><div class="fstep"><div class="lab">Quoted<small>quote recorded</small></div><div class="fbar"><i class="cv" data-w="20" style="min-width:42px">41</i></div><div class="pct"><b>3.8%</b><span>of leads</span></div></div><div class="fstep"><div class="lab">Sales<small>households sold</small></div><div class="fbar"><i class="cv end" data-w="18" style="min-width:42px">36</i></div><div class="pct"><b>3.4%</b><span>of leads</span></div></div><div class="fnote">GOAL delivered <b>1,071</b> leads: 465 on Auto from 703 clicks (66.1% of clicks) and 606 from the lead marketplace. Your files and GOAL statuses show <b>41</b> quoted (3.8% of leads) and <b>36</b> households sold with <b>56</b> items. 36 of the 41 recorded quotes are sales, so quotes are mostly recorded once a policy is written and the quote rate is a minimum. CPA $275 ($9,907.25 &divide; 36); cost per item $177 (56 items); cost per quote $242 (41 quotes). There is no Contacted step because no contact status is recorded yet. GOAL&#39;s own events show 24 quoted, 22 sold and 43 items, all on Auto; they follow your uploads.</div></div>
+      <div class="panel tscroll" style="margin-top:16px"><div class="pt">By month the lead arrived</div><table class="ltable atable mtable"><thead><tr><th>Month</th><th class="r">Leads</th><th class="r">Spend</th><th class="r">Quoted</th><th class="r">Sold</th><th class="r">Items</th><th class="r">Quote rate</th><th class="r">CPA</th></tr></thead><tbody><tr><td><div class="nm">Aug 21 to 31</div><div class="sub ts" style="margin-left:0">Partial month</div></td><td class="r"><span class="big">39</span></td><td class="r"><span class="cc">$522</span></td><td class="r"><span class="cc">6</span></td><td class="r"><span class="cc">4</span></td><td class="r"><span class="cc">10</span></td><td class="r"><span class="cc">15.4%</span></td><td class="r"><span class="cc">$131</span></td></tr><tr><td><div class="nm">Sep 1 to 30</div></td><td class="r"><span class="big">343</span></td><td class="r"><span class="cc">$3,464</span></td><td class="r"><span class="cc">16</span></td><td class="r"><span class="cc">14</span></td><td class="r"><span class="cc">19</span></td><td class="r"><span class="cc">4.7%</span></td><td class="r"><span class="cc">$247</span></td></tr><tr><td><div class="nm">Oct 1 to 31</div></td><td class="r"><span class="big">392</span></td><td class="r"><span class="cc">$3,738</span></td><td class="r"><span class="cc">17</span></td><td class="r"><span class="cc">16</span></td><td class="r"><span class="cc">25</span></td><td class="r"><span class="cc">4.3%</span></td><td class="r"><span class="cc">$234</span></td></tr><tr><td><div class="nm">Nov 1 to 19</div><div class="sub ts" style="margin-left:0">Partial month</div></td><td class="r"><span class="big">297</span></td><td class="r"><span class="cc">$2,184</span></td><td class="r"><span class="cc">2</span></td><td class="r"><span class="cc">2</span></td><td class="r"><span class="cc">2</span></td><td class="r"><span class="cc">0.7%</span></td><td class="r"><span class="cc">$1,092</span></td></tr></tbody></table><div class="anote">Leads and spend are GOAL monthly counts. Quoted, sold and items are counted in the month the lead arrived, and CPA is that month&#39;s spend divided by its households sold. August is Aug 21 to 31 and November is Nov 1 to 19, both partial months. Leads from the last weeks have had little time to quote and close.</div></div>
     </section>
 
     <section class="block" id="s4">
-      <div class="bhead"><span class="ix">04</span><div><h2>Conversion Funnel</h2><p>Aug 21 to Oct 15, 2026</p></div></div>
-      <div class="fpanel">
-        <div class="fdiv">Conversion funnel &middot; rates based on Leads</div>
-        <div class="fstep"><div class="lab">Leads<small>submitted</small></div><div class="fbar"><i class="cv" data-w="100">577</i></div><div class="pct"><b>100%</b><span>both campaigns</span></div></div>
-        <div class="fstep"><div class="lab">Contacted<small>reached</small></div><div class="fbar"><i class="pre" data-w="0"></i></div><div class="pct"><b>&ndash;</b><span>no events yet</span></div></div>
-        <div class="fstep"><div class="lab">Quotes<small>presented</small></div><div class="fbar"><i class="cv" data-w="55">23</i></div><div class="pct"><b>4.0%</b><span>of 577 leads</span></div></div>
-        <div class="fstep"><div class="lab">Policies<small>bound</small></div><div class="fbar"><i class="cv end" data-w="54">21</i></div><div class="pct"><b>3.6%</b><span>of 577 leads</span></div></div>
-        <div class="fnote">Quote rate <b>4.0%</b> (23 of 577). Lead to policy <b>3.6%</b> (21). CPA <b>$282.10</b> on $5,924 of spend. 21 of the 23 recorded quotes are sales, so quotes are mostly being recorded once a policy is written. Treat the quote rate as a minimum. Ad impressions and clicks apply to the Auto campaign only and are on its report. Contact rate shows a dash because no Contacted event is set up yet.</div>
-      </div>
+      <div class="bhead"><span class="ix">04</span><div><h2>Monthly Trend</h2><p>Leads, spend and sales by month</p></div></div>
+      <div class="fpanel"><div class="fhead">Leads by month &middot; spend</div><div class="fstep"><div class="lab">Aug 21 to 31 (partial)<small>6 quoted &middot; 4 sold</small></div><div class="fbar"><i class="cv" data-w="18" style="min-width:42px">39</i></div><div class="pct"><b>$522</b><span>spend</span></div></div><div class="fstep"><div class="lab">Sep 1 to 30<small>16 quoted &middot; 14 sold</small></div><div class="fbar"><i class="cv" data-w="90" style="min-width:50px">343</i></div><div class="pct"><b>$3,464</b><span>spend</span></div></div><div class="fstep"><div class="lab">Oct 1 to 31<small>17 quoted &middot; 16 sold</small></div><div class="fbar"><i class="cv end" data-w="100" style="min-width:50px">392</i></div><div class="pct"><b>$3,738</b><span>spend</span></div></div><div class="fstep"><div class="lab">Nov 1 to 19 (partial)<small>2 quoted &middot; 2 sold</small></div><div class="fbar"><i class="cv" data-w="81" style="min-width:50px">297</i></div><div class="pct"><b>$2,184</b><span>spend</span></div></div><div class="fnote">October has the most leads so far, <b>392</b> (Auto 200, Auto (LM) 192) on $3,738. September, the first full month and the first with marketplace leads, has 343 (Auto 195, Auto (LM) 148) on $3,464. August covers Aug 21 to 31, with the first lead on Aug 25: 39 Auto leads on $522. November through the 19th has 297 leads on $2,184: 31 on Auto, the most recent on Nov 11, and 266 on Auto (LM). October leads have the most sales (16), then September (14). Sales are counted in the month the lead arrived.</div></div>
     </section>
 
-    <section class="block" id="s5" style="margin-bottom:0;">
-      <div class="bhead"><span class="ix">05</span><div><h2>Recommendations</h2><p>Next review period</p></div></div>
+    <section class="block" id="s5">
+      <div class="bhead"><span class="ix">05</span><div><h2>Where Quotes and Sales Came From: Ad Channel and Traffic Tier</h2><p>Quoted and sold prospects by the ad channel (Aid) of the lead; Auto sales and items by traffic tier</p></div></div>
+      <div class="astack">
+        <div class="panel tscroll"><div class="pt">Auto: quotes and sales by ad channel (Aid)</div><table class="ltable atable"><thead><tr><th>Ad channel &middot; traffic tier</th><th class="r">Leads</th><th class="r">Quoted</th><th class="r">Sold</th><th class="r">Items</th></tr></thead><tbody><tr><td><div class="nm"><span class="bd" style="background:var(--s1)"></span><span class="aidn">Aid 1532</span></div><div class="sub ts">Premium Paid Search 6</div></td><td class="r"><span class="cc">141</span></td><td class="r"><span class="cc">7</span></td><td class="r"><span class="big">7</span></td><td class="r"><span class="cc">16</span></td></tr><tr><td><div class="nm"><span class="bd" style="background:var(--s2)"></span><span class="aidn">Aid 113784</span></div><div class="sub ts">Internal SEO 2</div></td><td class="r"><span class="cc">40</span></td><td class="r"><span class="cc">5</span></td><td class="r"><span class="big">5</span></td><td class="r"><span class="cc">7</span></td></tr><tr><td><div class="nm"><span class="bd" style="background:var(--s3)"></span><span class="aidn">Aid 2144</span></div><div class="sub ts">Email</div></td><td class="r"><span class="cc">47</span></td><td class="r"><span class="cc">3</span></td><td class="r"><span class="big">3</span></td><td class="r"><span class="cc">7</span></td></tr><tr><td><div class="nm"><span class="bd" style="background:var(--s4)"></span><span class="aidn">Aid 112563</span></div><div class="sub ts">Premium Paid Search 2</div></td><td class="r"><span class="cc">16</span></td><td class="r"><span class="cc">2</span></td><td class="r"><span class="big">2</span></td><td class="r"><span class="cc">3</span></td></tr><tr><td><div class="nm"><span class="bd" style="background:var(--s5)"></span><span class="aidn">Aid 122</span></div><div class="sub ts">Internal SEO 2</div></td><td class="r"><span class="cc">35</span></td><td class="r"><span class="cc">2</span></td><td class="r"><span class="big">1</span></td><td class="r"><span class="cc">2</span></td></tr><tr><td><div class="nm"><span class="bd" style="background:var(--s6)"></span><span class="aidn">Aid 113974</span></div><div class="sub ts">Premium Referral</div></td><td class="r"><span class="cc">25</span></td><td class="r"><span class="cc">2</span></td><td class="r"><span class="big">1</span></td><td class="r"><span class="cc">2</span></td></tr><tr><td><div class="nm"><span class="bd" style="background:var(--s6)"></span><span class="aidn">Aid 3460</span></div><div class="sub ts">Premium Referral</div></td><td class="r"><span class="cc">15</span></td><td class="r"><span class="cc">1</span></td><td class="r"><span class="big">1</span></td><td class="r"><span class="cc">2</span></td></tr><tr><td><div class="nm"><span class="bd" style="background:var(--s6)"></span><span class="aidn">Aid 113341</span></div><div class="sub ts">Premium Paid Search 2, Internal SEO 2</div></td><td class="r"><span class="cc">5</span></td><td class="r"><span class="cc">2</span></td><td class="r"><span class="big">1</span></td><td class="r"><span class="cc">1</span></td></tr><tr><td><div class="nm"><span class="bd" style="background:var(--s6)"></span><span class="aidn">Aid 112864</span></div><div class="sub ts">Premium Referral</div></td><td class="r"><span class="cc">1</span></td><td class="r"><span class="cc">1</span></td><td class="r"><span class="big">1</span></td><td class="r"><span class="cc">1</span></td></tr><tr><td><div class="nm"><span class="bd" style="background:var(--s6)"></span><span class="aidn">Aid 113245</span></div><div class="sub ts">Premium Paid Search 5D</div></td><td class="r"><span class="cc">2</span></td><td class="r"><span class="cc">1</span></td><td class="r"><span class="big">-</span></td><td class="r"><span class="cc">-</span></td></tr><tr><td><div class="nm"><span class="bd" style="background:var(--s6)"></span><span class="aidn">Aid 114821</span></div><div class="sub ts">Premium Referral</div></td><td class="r"><span class="cc">1</span></td><td class="r"><span class="cc">1</span></td><td class="r"><span class="big">-</span></td><td class="r"><span class="cc">-</span></td></tr><tr class="muted"><td><div class="nm"><span class="bd" style="background:var(--s7)"></span>All other channels</div><div class="sub ts">36 ad channels with no recorded quote yet</div></td><td class="r"><span class="cc">137</span></td><td class="r"><span class="cc">-</span></td><td class="r"><span class="big">-</span></td><td class="r"><span class="cc">-</span></td></tr><tr class="tot"><td><div class="nm">Total</div><div class="sub ts">47 ad channels</div></td><td class="r"><span class="cc">465</span></td><td class="r"><span class="cc">27</span></td><td class="r"><span class="big">22</span></td><td class="r"><span class="cc">41</span></td></tr></tbody></table></div>
+        <div class="panel tscroll"><div class="pt">Auto: sales by traffic tier</div><table class="ltable atable"><thead><tr><th>Traffic tier</th><th class="r">Sold</th><th class="r">Items</th><th class="r">Leads</th><th class="r">Spend</th><th class="r">CPA</th><th class="r">Cost per item</th></tr></thead><tbody><tr><td><div class="nm"><span class="bd" style="background:var(--s1)"></span>Premium Paid Search 6</div><div class="sub ts">1 ad channel</div></td><td class="r"><span class="big">7</span></td><td class="r"><span class="cc">16</span></td><td class="r"><span class="cc">130</span></td><td class="r"><span class="cc">$1,929</span></td><td class="r"><span class="cc">$276</span></td><td class="r"><span class="cc">$121</span></td></tr><tr><td><div class="nm"><span class="bd" style="background:var(--s2)"></span>Internal SEO 2</div><div class="sub ts">2 ad channels</div></td><td class="r"><span class="big">6</span></td><td class="r"><span class="cc">9</span></td><td class="r"><span class="cc">73</span></td><td class="r"><span class="cc">$970</span></td><td class="r"><span class="cc">$162</span></td><td class="r"><span class="cc">$108</span></td></tr><tr><td><div class="nm"><span class="bd" style="background:var(--s3)"></span>Email</div><div class="sub ts">1 ad channel</div></td><td class="r"><span class="big">3</span></td><td class="r"><span class="cc">7</span></td><td class="r"><span class="cc">69</span></td><td class="r"><span class="cc">$772</span></td><td class="r"><span class="cc">$257</span></td><td class="r"><span class="cc">$110</span></td></tr><tr><td><div class="nm"><span class="bd" style="background:var(--s4)"></span>Premium Referral</div><div class="sub ts">3 ad channels</div></td><td class="r"><span class="big">3</span></td><td class="r"><span class="cc">5</span></td><td class="r"><span class="cc">88</span></td><td class="r"><span class="cc">$1,067</span></td><td class="r"><span class="cc">$356</span></td><td class="r"><span class="cc">$213</span></td></tr><tr><td><div class="nm"><span class="bd" style="background:var(--s5)"></span>Premium Paid Search 2</div><div class="sub ts">2 ad channels</div></td><td class="r"><span class="big">3</span></td><td class="r"><span class="cc">4</span></td><td class="r"><span class="cc">31</span></td><td class="r"><span class="cc">$338</span></td><td class="r"><span class="cc">$113</span></td><td class="r"><span class="cc">$85</span></td></tr><tr class="tot"><td><div class="nm">Auto total</div><div class="sub ts">5 traffic tiers with a sale &middot; all Auto sources</div></td><td class="r"><span class="big">22</span></td><td class="r"><span class="cc">41</span></td><td class="r"><span class="cc">465</span></td><td class="r"><span class="cc">$5,996</span></td><td class="r"><span class="cc">$273</span></td><td class="r"><span class="cc">$146</span></td></tr></tbody></table></div>
+        <div class="panel tscroll"><div class="pt">Auto (LM): quotes and sales by ad channel (Aid)</div><table class="ltable atable"><thead><tr><th>Ad channel &middot; traffic tier</th><th class="r">Leads</th><th class="r">Quoted</th><th class="r">Sold</th><th class="r">Items</th></tr></thead><tbody><tr><td><div class="nm"><span class="bd" style="background:var(--s1)"></span>No ad channel on record</div><div class="sub ts">Marketplace leads with no ad channel on the record</div></td><td class="r"><span class="cc">337</span></td><td class="r"><span class="cc">13</span></td><td class="r"><span class="big">13</span></td><td class="r"><span class="cc">13</span></td></tr><tr><td><div class="nm"><span class="bd" style="background:var(--s2)"></span><span class="aidn">Aid 1532</span></div><div class="sub ts">Marketplace</div></td><td class="r"><span class="cc">48</span></td><td class="r"><span class="cc">1</span></td><td class="r"><span class="big">1</span></td><td class="r"><span class="cc">2</span></td></tr><tr class="muted"><td><div class="nm"><span class="bd" style="background:var(--s7)"></span>All other channels</div><div class="sub ts">28 ad channels with no recorded quote yet</div></td><td class="r"><span class="cc">221</span></td><td class="r"><span class="cc">-</span></td><td class="r"><span class="big">-</span></td><td class="r"><span class="cc">-</span></td></tr><tr class="tot"><td><div class="nm">Total</div><div class="sub ts">29 ad channels and 337 records with none</div></td><td class="r"><span class="cc">606</span></td><td class="r"><span class="cc">14</span></td><td class="r"><span class="big">14</span></td><td class="r"><span class="cc">15</span></td></tr></tbody></table></div>
+      </div>
+      <div class="anote"><b>All 22</b> Auto sales were traced to the traffic tier of their original lead, and every sale is counted under the ad channel (Aid) on its prospect record. A channel&#39;s tier comes from its traced sales and quotes; channels with neither show no tier yet. One ad channel can run in more than one tier. Leads, spend, CPA and cost per item in the tier table are the GOAL source&#39;s totals on Auto since launch. Marketplace leads are not traced to a tier, and 337 of the 606 marketplace records carry no ad channel. Spend by ad channel is not available, so the ad channel tables compare outcomes, not cost. Auto sales: Aug 25 lead on Aid 2144 (Email, 5 items); Aug 26 lead on Aid 113784 (Internal SEO 2, 2 items); Aug 27 lead on Aid 112864 (Premium Referral, 1 item); Aug 31 lead on Aid 112563 (Premium Paid Search 2, 2 items); Sep 9 lead on Aid 3460 (Premium Referral, 2 items); Sep 18 lead on Aid 1532 (Premium Paid Search 6, 1 item); Sep 21 lead on Aid 1532 (Premium Paid Search 6, 2 items); Sep 24 lead on Aid 1532 (Premium Paid Search 6, 3 items); Sep 25 lead on Aid 2144 (Email, 1 item); Sep 29 lead on Aid 1532 (Premium Paid Search 6, 1 item); Sep 29 lead on Aid 113974 (Premium Referral, 2 items); Sep 30 lead on Aid 113784 (Internal SEO 2, 1 item); Oct 2 lead on Aid 1532 (Premium Paid Search 6, 1 item); Oct 6 lead on Aid 113341 (Premium Paid Search 2, 1 item); Oct 9 lead on Aid 113784 (Internal SEO 2, 2 items); Oct 12 lead on Aid 122 (Internal SEO 2, 2 items); Oct 16 lead on Aid 113784 (Internal SEO 2, 1 item); Oct 20 lead on Aid 2144 (Email, 1 item); Oct 27 lead on Aid 1532 (Premium Paid Search 6, 5 items); Oct 27 lead on Aid 112563 (Premium Paid Search 2, 1 item); Oct 28 lead on Aid 1532 (Premium Paid Search 6, 3 items); Nov 4 lead on Aid 113784 (Internal SEO 2, 1 item). Auto (LM) sales: 13 on records with no ad channel, 1 item each (leads from Sep 1, Sep 4, Sep 10, Sep 14, Sep 17, Sep 23, Oct 7, Oct 8, Oct 12, Oct 19, Oct 19, Oct 26, Nov 6); 1 on Aid 1532 (Oct 6 lead, 2 items).</div>
+      <div class="gapcall"><p><b>Ad channels with the fewest quotes and binds.</b> The <a href="Navarro-Monthly-Sales-by-Source-11-19-26.html" style="color:var(--brand-text);font-weight:600">Monthly Sales by Source and Aid</a> report ranks the ad channels with many leads and no recorded quote or bind. Nothing has been changed at the ad channel level.</p></div>
+    </section>
+
+    <section class="block" id="s6">
+      <div class="bhead"><span class="ix">06</span><div><h2>Recommendations</h2><p>Next review period</p></div></div>
       <div class="plan">
-        <div class="pstep"><div class="num">1</div><div><div class="h">Log Contacts and Quotes in GOAL<span class="tag neutral">Agency</span></div><div class="b">Update each lead's status in GOAL when it is contacted and when it is quoted, or upload the CRM export once a week. That fills in the Contact Rate, gives a true quote rate for both campaigns, and shows which lead types turn into quotes, not only sales.</div><div class="m"><b>Metric behind it:</b> 26 of 579 lead records have an updated status in GOAL (5 quoted, 21 sold), and 21 of the 23 recorded quotes are sales.</div></div></div>
-        <div class="pstep"><div class="num">2</div><div><div class="h">Compare Campaign CPA Every Month<span class="tag blue">GOAL</span></div><div class="b">Auto (LM) has the lower CPA of the two campaigns since its first leads in September. We will report both campaigns' CPA side by side each month as more quotes and policies are logged.</div><div class="m"><b>Metric behind it:</b> Auto (LM) CPA $205.68 (8 policies from 236 leads) against Auto $329.13 (13 policies from 341 leads).</div></div></div>
-        <div class="pstep"><div class="num">3</div><div><div class="h">Call Back Open Phone Quotes<span class="tag neutral">Agency</span></div><div class="b">Review each inbound call that ended with a priced quote and no recorded outcome, and call back the ones still open. One caller has a quote held through October 31 and planned to switch when the current policy term ends.</div><div class="m"><b>Metric behind it:</b> 8 inbound calls ended with a priced quote and 1 of those has a recorded sale; 2 sales came from callers overall.</div></div></div>
-        <div class="pstep"><div class="num">4</div><div><div class="h">Offer the Renters Bundle on Every Renter Call<span class="tag neutral">Agency</span></div><div class="b">With no new home policies available in California, renters is the bundle that can be offered. Raise it early on every renter call, before the auto price is quoted.</div><div class="m"><b>Metric behind it:</b> 11 of 15 calls of 60 seconds or longer were with renters; the renters bundle came up on 3 of them, including 1 sale.</div></div></div>
-        <div class="pstep"><div class="num">5</div><div><div class="h">Work Every Lead Across 30 Days<span class="tag neutral">Agency</span></div><div class="b">Contact frequency by week, across phone, text, and email:</div>
-          <div class="cad"><div class="c"><div class="w">Week 1</div><div class="n">3+/day</div><div class="s">all channels</div></div><div class="c"><div class="w">Week 2</div><div class="n">2+/day</div><div class="s">all channels</div></div><div class="c"><div class="w">Weeks 3&ndash;4</div><div class="n">every 2&ndash;3 days</div><div class="s">all channels</div></div></div><div class="m"><b>Metric behind it:</b> 554 of 577 leads (96%) have no recorded quote.</div></div></div>
+        <div class="pstep"><div class="num">1</div><div><div class="h">Review the Auto Campaign Together<span class="tag blue">GOAL</span></div><div class="b">The Auto campaign&#39;s most recent lead arrived Nov 11, while Auto (LM) leads continued through Nov 19. We will review the Auto campaign&#39;s settings and confirm with you how the two campaigns should run from here.</div><div class="m"><b>Metric behind it:</b> Auto leads by week: 43 the week of Oct 26, 19 the week of Nov 2, 12 the week of Nov 9 and none the week of Nov 16. Auto (LM) leads in the same weeks: 56, 95, 101 and 70 (Nov 16 to 19).</div></div></div>
+        <div class="pstep"><div class="num">2</div><div><div class="h">Preliminary: Lean Toward Internal SEO 2 and Premium Paid Search 2<span class="tag blue">GOAL</span></div><div class="b">A measured bid increase on Internal SEO 2 and Premium Paid Search 2, the two Auto sources with three or more sales and a CPA below the Auto average. This is preliminary: we will check it against current market pricing before any change is made.</div><div class="m"><b>Metric behind it:</b> Internal SEO 2: 73 leads, $970, 8 quoted, 6 sales (9 items), CPA $162. Premium Paid Search 2: 31 leads, $338, 3 sales (4 items), CPA $113. Auto overall CPA $273 on 22 households sold.</div></div></div>
+        <div class="pstep"><div class="num">3</div><div><div class="h">Hold Premium Paid Search 6, Email, Premium Referral and the Smaller Sources<span class="tag blue">GOAL</span></div><div class="b">These sources stay at their current settings. Premium Paid Search 6 is the largest Auto source and has the most sales; Email and Premium Referral have three sales each. Native/Display/Social 2 and the smaller sources have no recorded quote or sale yet, a starting read only, so we will keep watching them before changing anything.</div><div class="m"><b>Metric behind it:</b> Premium Paid Search 6: 130 leads, $1,929, 7 sales (16 items), CPA $276. Email: 69 leads, $772, 3 sales (7 items), CPA $257. Premium Referral: 88 leads, $1,067, 5 quoted, 3 sales (5 items), CPA $356. Native/Display/Social 2: 32 leads, $450, no recorded quote or sale.</div></div></div>
+        <div class="pstep"><div class="num">4</div><div><div class="h">Send the Next Sales Report With a Phone Number on Every Row<span class="tag neutral">Agency</span></div><div class="b">Please include the phone number each customer used on the quote form on every row of the next report, with Items and Premium as in the Nov 19 report. The phone number is how each sale is matched to its GOAL lead, source and ad channel.</div><div class="m"><b>Metric behind it:</b> 13 of the 47 rows in the Nov 19 report have no phone number. They carry 19 items and $13,515 in premium and are not counted yet. The other 34 rows all match a GOAL lead.</div></div></div>
+        <div class="pstep"><div class="num">5</div><div><div class="h">Send a Lead List With Contacted and Quoted Status, and Add Assigned To<span class="tag neutral">Agency</span></div><div class="b">Please send a list of every GOAL lead with its current status (Contacted, Quoted, Sold), or update each lead&#39;s status in GOAL, and add an Assigned To column. That gives this report a contact rate and a full quote rate for both campaigns, and lets it show results by producer.</div><div class="m"><b>Metric behind it:</b> 41 of 1,071 leads have a recorded quote, and 36 of those are sales. 1,030 leads have no recorded quote. No file has a producer column.</div></div></div>
+        <div class="pstep"><div class="num">6</div><div><div class="h">Update Marketplace Leads as You Work Them<span class="tag neutral">Agency</span></div><div class="b">Update each marketplace lead&#39;s status in GOAL as it is contacted and quoted, so the two campaigns can be compared on quotes as well as sales.</div><div class="m"><b>Metric behind it:</b> 592 of the 606 marketplace records still show Received - not worked yet in GOAL. Auto (LM): 14 households sold from 606 leads, CPA $279. Auto: 22 from 465 leads, CPA $273.</div></div></div>
+        <div class="pstep"><div class="num">7</div><div><div class="h">Call Back the Open Phone Quotes<span class="tag neutral">Agency</span></div><div class="b">Call back each caller who was given a price and has not bought, starting with the most recent. The Inbound Call Review lists them, most recent first, with the last call and what was quoted.</div><div class="m"><b>Metric behind it:</b> 16 callers were given a price on the phone and 4 of them bought; 8 callers have bought in all. 19 callers are on the follow-up list.</div></div></div>
+        <div class="pstep"><div class="num">8</div><div><div class="h">Ask Every Household About a Second Policy<span class="tag neutral">Agency</span></div><div class="b">Raise renters or a second vehicle early on each call, before the auto price is quoted, so more households write more than one item.</div><div class="m"><b>Metric behind it:</b> 12 of the 36 households sold have two or more items and 24 have one. 830 of 1,071 leads say they do not own their home.</div></div></div>
+        <div class="pstep"><div class="num">9</div><div><div class="h">Geography: For Discussion<span class="tag amber">For discussion</span></div><div class="b">We can look together at where quotes and sales are coming from and decide whether any area should get more or less focus. No geo-targeting changes have been made.</div><div class="m"><b>Metric behind it:</b> Los Angeles County 426 leads, 19 quotes and 16 sales; San Diego County 93 leads, 5 quotes and 5 sales; San Bernardino County 76 leads, 4 quotes and 4 sales with 10 items; Riverside County 73 leads, 4 quotes and 4 sales; Orange County 59 leads, 2 quotes and 2 sales; Alameda County 45 leads, 4 quotes and 3 sales. Santa Clara County (43 leads) and Fresno County (32) have no sale yet. The Source and ZIP Sales report has every county and ZIP.</div></div></div>
       </div>
     </section>
 
-    <div class="mfoot"><span>All conversion metrics calculated based on Leads, not Clicks.</span><span>Navarro Insurance Agency &middot; GOAL #1022 &middot; Prepared by Alex Roy &middot; Oct 15, 2026</span></div>
+    <section class="block" id="s7" style="margin-bottom:0;margin-top:48px;">
+      <div class="bhead"><span class="ix">07</span><div><h2>Related Reports</h2><p>Campaign detail and the other reports for this period</p></div></div>
+      <div class="plan rel">
+        <div class="pstep"><div class="num">1</div><div><div class="h"><a href="Navarro-Auto-Campaign-Performance-Since-Launch-11-19-26.html">Auto Campaign Performance</a></div><div class="b">Auto sources, conversion funnel and the ad channels (Aids) behind its quotes and 22 sales.</div></div></div>
+        <div class="pstep"><div class="num">2</div><div><div class="h"><a href="Navarro-Auto-LM-Campaign-Performance-Since-Launch-11-19-26.html">Auto (LM) Lead Marketplace</a></div><div class="b">Marketplace leads by month and county, and the ad channels behind its 14 sales.</div></div></div>
+        <div class="pstep"><div class="num">3</div><div><div class="h"><a href="Navarro-Monthly-Sales-by-Source-11-19-26.html">Monthly Sales by Source and Aid</a></div><div class="b">August through November: leads, spend, quotes and sales by source and ad channel, with the ad channels that have the fewest quotes and binds.</div></div></div>
+        <div class="pstep"><div class="num">4</div><div><div class="h"><a href="Navarro-Source-ZIP-Sales-11-19-26.html">Source and ZIP Sales</a></div><div class="b">Quotes, sales and items by source, ad channel, county and ZIP code, with the ZIP CSV.</div></div></div>
+        <div class="pstep"><div class="num">5</div><div><div class="h"><a href="Navarro-Inbound-Call-Review-11-19-26.html">Inbound Call Review</a></div><div class="b">Review of the inbound calls from prospects, by producer, with a follow-up list.</div></div></div>
+      </div>
+    </section>
+
+    <div class="mfoot"><span>All conversion metrics calculated based on Leads, not Clicks.</span><span>GOAL &middot; Since launch, Aug 21 through Nov 19, 2026</span></div>
 
   </main>
 </div>

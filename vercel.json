@@ -2,20 +2,77 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "cleanUrls": true,
   "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/Navarro-Campaign-Overview-Since-Launch-10-15-26",
+      "destination": "/Navarro-Campaign-Overview-Since-Launch-11-19-26",
+      "permanent": false
+    },
+    {
+      "source": "/Navarro-Campaign-Overview-Since-Launch-10-15-26.html",
+      "destination": "/Navarro-Campaign-Overview-Since-Launch-11-19-26",
+      "permanent": false
+    },
+    {
+      "source": "/Navarro-Auto-Campaign-Performance-Since-Launch-10-15-26",
+      "destination": "/Navarro-Auto-Campaign-Performance-Since-Launch-11-19-26",
+      "permanent": false
+    },
+    {
+      "source": "/Navarro-Auto-Campaign-Performance-Since-Launch-10-15-26.html",
+      "destination": "/Navarro-Auto-Campaign-Performance-Since-Launch-11-19-26",
+      "permanent": false
+    },
+    {
+      "source": "/Navarro-Auto-LM-Campaign-Performance-Since-Launch-10-15-26",
+      "destination": "/Navarro-Auto-LM-Campaign-Performance-Since-Launch-11-19-26",
+      "permanent": false
+    },
+    {
+      "source": "/Navarro-Auto-LM-Campaign-Performance-Since-Launch-10-15-26.html",
+      "destination": "/Navarro-Auto-LM-Campaign-Performance-Since-Launch-11-19-26",
+      "permanent": false
+    },
+    {
+      "source": "/Navarro-Inbound-Call-Review-10-15-26",
+      "destination": "/Navarro-Inbound-Call-Review-11-19-26",
+      "permanent": false
+    },
+    {
+      "source": "/Navarro-Inbound-Call-Review-10-15-26.html",
+      "destination": "/Navarro-Inbound-Call-Review-11-19-26",
+      "permanent": false
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
       "headers": [
-        { "key": "X-Content-Type-Options", "value": "nosniff" },
-        { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
-        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
-        { "key": "X-Robots-Tag", "value": "noindex, nofollow" }
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
       ]
     },
     {
       "source": "/",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
       ]
     }
   ]
